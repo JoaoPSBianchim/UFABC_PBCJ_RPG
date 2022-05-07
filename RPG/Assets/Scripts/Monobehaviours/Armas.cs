@@ -5,10 +5,26 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class Armas : MonoBehaviour
 {
-    public GameObject municaoPrefab;            //Armazena o Prefab da Municao
-    static List<GameObject> municaoPiscina;     //Piscina de municao
-    public int tamanhoPiscina;                  //Tamanho da Piscina
-    public float velocidadeArma;                //Velocidade da municao
+    // Armazena o Prefab da Municao
+    public GameObject municaoPrefab;
+
+    // Armazena o prefab da espada
+    public GameObject espadaPrefab;
+
+    // Piscina de municao
+    static List<GameObject> municaoPiscina;
+
+    // Tamanho da Piscina
+    public int tamanhoPiscina;
+
+    // Velocidade da municao
+    public float velocidadeArma;
+
+    // Velocidade da espada, em graus/s
+    public float velocidadeEspada;
+
+    // Armazena a espada do player
+    GameObject espada;
 
     bool atirando;
     [HideInInspector]
@@ -33,7 +49,7 @@ public class Armas : MonoBehaviour
         atirando = false;
         cameraLocal = Camera.main;
         Vector2 abaixoEsquerda = cameraLocal.ScreenToWorldPoint(new Vector2(0, 0));
-        Vector2 acimaDireita= cameraLocal.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height));
+        Vector2 acimaDireita = cameraLocal.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height));
         Vector2 acimaEsquerda = cameraLocal.ScreenToWorldPoint(new Vector2(0, Screen.height));
         Vector2 abaixoDireita = cameraLocal.ScreenToWorldPoint(new Vector2(Screen.width, 0));
 
@@ -121,16 +137,16 @@ public class Armas : MonoBehaviour
 
     private void Awake()
     {
-        if(municaoPiscina == null)
-        {
-            municaoPiscina = new List<GameObject>();
-        }
-        for(int i = 0; i < tamanhoPiscina; i++)
+        municaoPiscina ??= new List<GameObject>();
+        for (int i = 0; i < tamanhoPiscina; i++)
         {
             GameObject municaoO = Instantiate(municaoPrefab);
-            municaoO.SetActive(true);
+            municaoO.SetActive(false);
             municaoPiscina.Add(municaoO);
         }
+
+        espada = Instantiate(espadaPrefab);
+        espada.SetActive(false);
     }
 
     private void Update()
@@ -140,6 +156,11 @@ public class Armas : MonoBehaviour
             atirando = true;
             print("Apertei");
             DisparaMunicao();
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            print("Apertei melee");
+            AtacaMelee();
         }
         UpdateEstado();
     }
@@ -153,7 +174,7 @@ public class Armas : MonoBehaviour
     {
         foreach (GameObject municao in municaoPiscina)
         {
-            if(municao.activeSelf == false)
+            if (municao.activeSelf == false)
             {
                 municao.SetActive(true);
                 municao.transform.position = posicao;
@@ -163,11 +184,18 @@ public class Armas : MonoBehaviour
         return null;
     }
 
+    public GameObject SpawnEspada(Vector3 posicao)
+    {
+        espada.SetActive(true);
+        espada.transform.position = posicao;
+        return espada;
+    }
+
     void DisparaMunicao()
     {
         Vector3 posicaoMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         GameObject municao = SpawnMunicao(transform.position);
-        if(municao != null)
+        if (municao != null)
         {
             Arco arcoScript = municao.GetComponent<Arco>();
             float duracaoTrajetoria = 1.0f / velocidadeArma;
@@ -175,8 +203,31 @@ public class Armas : MonoBehaviour
         }
     }
 
+    void AtacaMelee()
+    {
+        var posicaoMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        var espada = SpawnEspada(transform.position);
+
+        var angulo = 0.0f;
+        var quadrante = PegaQuadrante();
+        switch (quadrante)
+        {
+            case Quadrante.Leste: angulo = 0.0f; break;
+            case Quadrante.Sul: angulo = 90.0f; break;
+            case Quadrante.Oeste: angulo = 180.0f; break;
+            case Quadrante.Norte: angulo = 270.0f; break;
+        }
+
+        if (espada != null)
+        {
+            var script = espada.GetComponent<Swing>();
+            var duracaoTrajetoria = 90.0f / velocidadeEspada;
+            StartCoroutine(script.swing(angulo, duracaoTrajetoria));
+        }
+    }
+
     private void OnDestroy()
     {
         municaoPiscina = null;
     }
-} 
+}

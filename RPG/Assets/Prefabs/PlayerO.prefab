@@ -197,5 +197,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   municaoPrefab: {fileID: 5665907242197474428, guid: 9397a4cdaae627b46bd48d0f51240cba, type: 3}
+  espadaPrefab: {fileID: 5665907242197474428, guid: fe3271a9e90e5204ead74e3b6f542168, type: 3}
   tamanhoPiscina: 7
   velocidadeArma: 2
+  velocidadeEspada: 10
+  animator: {fileID: 0}
