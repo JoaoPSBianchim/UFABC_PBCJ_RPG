@@ -76,6 +76,14 @@ public class Player : Caractere
                         deveDesaparecer = AjustePontosDano(DanoObjeto.quantidade);
                         break;
 
+                    case Item.TipoItem.DIAMANTE:
+                        deveDesaparecer = inventario.AddItem(DanoObjeto);
+                        break;
+
+                    case Item.TipoItem.ESCUDO:
+                        deveDesaparecer = inventario.AddItem(DanoObjeto);
+                        break;
+
                     default:
                         break;
                 }
