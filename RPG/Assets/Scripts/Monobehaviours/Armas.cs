@@ -23,10 +23,15 @@ public class Armas : MonoBehaviour
     // Velocidade da espada, em graus/s
     public float velocidadeEspada;
 
-    // Armazena a espada do player
+    // Armazena e reutiliza uma espada
     GameObject espada;
 
+    // Armazena a rotacao inicial da espada
+    Vector3 espadaAngulos;
+
     bool atirando;
+
+
     [HideInInspector]
     public Animator animator;
 
@@ -146,6 +151,7 @@ public class Armas : MonoBehaviour
         }
 
         espada = Instantiate(espadaPrefab);
+        espadaAngulos = espada.transform.eulerAngles;
         espada.SetActive(false);
     }
 
@@ -188,6 +194,7 @@ public class Armas : MonoBehaviour
     {
         espada.SetActive(true);
         espada.transform.position = posicao;
+        espada.transform.eulerAngles = espadaAngulos;
         return espada;
     }
 
@@ -209,20 +216,25 @@ public class Armas : MonoBehaviour
         var espada = SpawnEspada(transform.position);
 
         var angulo = 0.0f;
+        var deslocamento = new Vector3();
         var quadrante = PegaQuadrante();
-        switch (quadrante)
-        {
-            case Quadrante.Leste: angulo = 0.0f; break;
-            case Quadrante.Sul: angulo = 90.0f; break;
-            case Quadrante.Oeste: angulo = 180.0f; break;
-            case Quadrante.Norte: angulo = 270.0f; break;
-        }
 
         if (espada != null)
         {
             var script = espada.GetComponent<Swing>();
-            var duracaoTrajetoria = 90.0f / velocidadeEspada;
-            StartCoroutine(script.swing(angulo, duracaoTrajetoria));
+            var duracao = 1.0f / velocidadeEspada;
+
+            var altura = espada.GetComponent<SpriteRenderer>().bounds.size.x;
+            var largura = espada.GetComponent<SpriteRenderer>().bounds.size.y;
+            switch (quadrante)
+            {
+                case Quadrante.Leste: angulo = 0.0f; deslocamento.x += largura / 2; break;
+                case Quadrante.Norte: angulo = 90.0f; deslocamento.y += altura / 2; break;
+                case Quadrante.Oeste: angulo = 180.0f; deslocamento.x -= largura / 2; break;
+                case Quadrante.Sul: angulo = 270.0f; deslocamento.y -= altura / 2; break;
+            }
+
+            StartCoroutine(script.swing(deslocamento, angulo, duracao, gameObject));
         }
     }
 

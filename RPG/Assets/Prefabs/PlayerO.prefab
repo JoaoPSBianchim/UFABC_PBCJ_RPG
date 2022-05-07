@@ -200,5 +200,5 @@ MonoBehaviour:
   espadaPrefab: {fileID: 5665907242197474428, guid: fe3271a9e90e5204ead74e3b6f542168, type: 3}
   tamanhoPiscina: 7
   velocidadeArma: 2
-  velocidadeEspada: 10
+  velocidadeEspada: 5
   animator: {fileID: 0}
