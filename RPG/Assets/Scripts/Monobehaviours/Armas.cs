@@ -160,12 +160,12 @@ public class Armas : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             atirando = true;
-            DisparaMunicao();
+            //DisparaMunicao();
         }
         if (Input.GetMouseButtonDown(1))
         {
             print("Apertei melee");
-            AtacaMelee();
+            //AtacaMelee();
         }
         UpdateEstado();
     }
