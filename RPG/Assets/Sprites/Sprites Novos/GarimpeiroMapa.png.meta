@@ -1,0 +1,6252 @@
+fileFormatVersion: 2
+guid: 8c629ff3560c57d489a15396ee064769
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6465159778258337311
+    second: GarimpeiroMapa_0
+  - first:
+      213: 4637805162733102606
+    second: GarimpeiroMapa_1
+  - first:
+      213: 9047595157655608115
+    second: GarimpeiroMapa_2
+  - first:
+      213: -3799158304403945819
+    second: GarimpeiroMapa_3
+  - first:
+      213: -6059812211738279639
+    second: GarimpeiroMapa_4
+  - first:
+      213: -8912532494162546803
+    second: GarimpeiroMapa_5
+  - first:
+      213: -3161631540428734270
+    second: GarimpeiroMapa_6
+  - first:
+      213: 3965693255170370978
+    second: GarimpeiroMapa_7
+  - first:
+      213: -2321936594676621293
+    second: GarimpeiroMapa_8
+  - first:
+      213: -679357554877966201
+    second: GarimpeiroMapa_9
+  - first:
+      213: 5954153057176631413
+    second: GarimpeiroMapa_10
+  - first:
+      213: -2753053895475283884
+    second: GarimpeiroMapa_11
+  - first:
+      213: -7944221601506795309
+    second: GarimpeiroMapa_12
+  - first:
+      213: 4515950353088122466
+    second: GarimpeiroMapa_13
+  - first:
+      213: 8332724273855055671
+    second: GarimpeiroMapa_14
+  - first:
+      213: 2172596786010114028
+    second: GarimpeiroMapa_15
+  - first:
+      213: -5285567315021501489
+    second: GarimpeiroMapa_16
+  - first:
+      213: -3778092484381658172
+    second: GarimpeiroMapa_17
+  - first:
+      213: 5120302920006744513
+    second: GarimpeiroMapa_18
+  - first:
+      213: -5404152250197942523
+    second: GarimpeiroMapa_19
+  - first:
+      213: -2028117500526793550
+    second: GarimpeiroMapa_20
+  - first:
+      213: 4170457019250082730
+    second: GarimpeiroMapa_21
+  - first:
+      213: 2835740040934113139
+    second: GarimpeiroMapa_22
+  - first:
+      213: -8005392993506232892
+    second: GarimpeiroMapa_23
+  - first:
+      213: 5386494621026644725
+    second: GarimpeiroMapa_24
+  - first:
+      213: 7467131187010347804
+    second: GarimpeiroMapa_25
+  - first:
+      213: 7071060949075749396
+    second: GarimpeiroMapa_26
+  - first:
+      213: -4124393755573860916
+    second: GarimpeiroMapa_27
+  - first:
+      213: 2499864479537722158
+    second: GarimpeiroMapa_28
+  - first:
+      213: -3326324114489935699
+    second: GarimpeiroMapa_29
+  - first:
+      213: 4999385787969363254
+    second: GarimpeiroMapa_30
+  - first:
+      213: 5213660470548636441
+    second: GarimpeiroMapa_31
+  - first:
+      213: -7259939660985018176
+    second: GarimpeiroMapa_32
+  - first:
+      213: 1732148970350479568
+    second: GarimpeiroMapa_33
+  - first:
+      213: -922953005254841900
+    second: GarimpeiroMapa_34
+  - first:
+      213: 5161579310915409582
+    second: GarimpeiroMapa_35
+  - first:
+      213: -808668419478375319
+    second: GarimpeiroMapa_36
+  - first:
+      213: -8515914100342310728
+    second: GarimpeiroMapa_37
+  - first:
+      213: -4923150111029752026
+    second: GarimpeiroMapa_38
+  - first:
+      213: 2354397901161529446
+    second: GarimpeiroMapa_39
+  - first:
+      213: -623453797607088985
+    second: GarimpeiroMapa_40
+  - first:
+      213: 3351470720034399869
+    second: GarimpeiroMapa_41
+  - first:
+      213: -8007456977799304207
+    second: GarimpeiroMapa_42
+  - first:
+      213: -9105675874978741030
+    second: GarimpeiroMapa_43
+  - first:
+      213: -5618938130592771860
+    second: GarimpeiroMapa_44
+  - first:
+      213: -2105654864414712500
+    second: GarimpeiroMapa_45
+  - first:
+      213: -8009640577374587525
+    second: GarimpeiroMapa_46
+  - first:
+      213: 7439457501700277561
+    second: GarimpeiroMapa_47
+  - first:
+      213: -9099844602004353407
+    second: GarimpeiroMapa_48
+  - first:
+      213: 6963396002847250686
+    second: GarimpeiroMapa_49
+  - first:
+      213: -1224888060688494078
+    second: GarimpeiroMapa_50
+  - first:
+      213: -3625473154644676400
+    second: GarimpeiroMapa_51
+  - first:
+      213: 5347975484097181822
+    second: GarimpeiroMapa_52
+  - first:
+      213: -5634441024026836962
+    second: GarimpeiroMapa_53
+  - first:
+      213: -7190161787010316600
+    second: GarimpeiroMapa_54
+  - first:
+      213: -3220393522538561602
+    second: GarimpeiroMapa_55
+  - first:
+      213: -561027861694604230
+    second: GarimpeiroMapa_56
+  - first:
+      213: 5782378800868912032
+    second: GarimpeiroMapa_57
+  - first:
+      213: -7424178249918439121
+    second: GarimpeiroMapa_58
+  - first:
+      213: 120888017035645253
+    second: GarimpeiroMapa_59
+  - first:
+      213: -2961477889681035877
+    second: GarimpeiroMapa_60
+  - first:
+      213: 6256579121894693342
+    second: GarimpeiroMapa_61
+  - first:
+      213: 2761798211227283801
+    second: GarimpeiroMapa_62
+  - first:
+      213: -6184561845810781228
+    second: GarimpeiroMapa_63
+  - first:
+      213: -664778683518860717
+    second: GarimpeiroMapa_64
+  - first:
+      213: 759164901416526179
+    second: GarimpeiroMapa_65
+  - first:
+      213: -3390409252600080560
+    second: GarimpeiroMapa_66
+  - first:
+      213: -1462199425736637194
+    second: GarimpeiroMapa_67
+  - first:
+      213: 938396034508708733
+    second: GarimpeiroMapa_68
+  - first:
+      213: 8458844242964710814
+    second: GarimpeiroMapa_69
+  - first:
+      213: -5090765472405116043
+    second: GarimpeiroMapa_70
+  - first:
+      213: 2141107142705380772
+    second: GarimpeiroMapa_71
+  - first:
+      213: -1397402579003150083
+    second: GarimpeiroMapa_72
+  - first:
+      213: -2531653681891035775
+    second: GarimpeiroMapa_73
+  - first:
+      213: -430566198695349898
+    second: GarimpeiroMapa_74
+  - first:
+      213: 8836566694043398771
+    second: GarimpeiroMapa_75
+  - first:
+      213: 7865686849196765554
+    second: GarimpeiroMapa_76
+  - first:
+      213: -1581387543670058982
+    second: GarimpeiroMapa_77
+  - first:
+      213: 1624793070741591086
+    second: GarimpeiroMapa_78
+  - first:
+      213: -1888587701474191587
+    second: GarimpeiroMapa_79
+  - first:
+      213: -8352125500696675573
+    second: GarimpeiroMapa_80
+  - first:
+      213: -1432110197200312654
+    second: GarimpeiroMapa_81
+  - first:
+      213: 7661155936494542458
+    second: GarimpeiroMapa_82
+  - first:
+      213: -2587474949205969646
+    second: GarimpeiroMapa_83
+  - first:
+      213: 1547151552597889341
+    second: GarimpeiroMapa_84
+  - first:
+      213: 1381214646536653481
+    second: GarimpeiroMapa_85
+  - first:
+      213: 4489386048791339419
+    second: GarimpeiroMapa_86
+  - first:
+      213: -303652776731781097
+    second: GarimpeiroMapa_87
+  - first:
+      213: -7020298461977220363
+    second: GarimpeiroMapa_88
+  - first:
+      213: 2205391665390181923
+    second: GarimpeiroMapa_89
+  - first:
+      213: -8474849948267433596
+    second: GarimpeiroMapa_90
+  - first:
+      213: 680791879108694225
+    second: GarimpeiroMapa_91
+  - first:
+      213: -8166652796260669530
+    second: GarimpeiroMapa_92
+  - first:
+      213: 6457685366850290852
+    second: GarimpeiroMapa_93
+  - first:
+      213: 629769932905415225
+    second: GarimpeiroMapa_94
+  - first:
+      213: 6021421563507682702
+    second: GarimpeiroMapa_95
+  - first:
+      213: -7336148587424230187
+    second: GarimpeiroMapa_96
+  - first:
+      213: 7475043380434322853
+    second: GarimpeiroMapa_97
+  - first:
+      213: -1669870676006973754
+    second: GarimpeiroMapa_98
+  - first:
+      213: -1422755410054563963
+    second: GarimpeiroMapa_99
+  - first:
+      213: 25298790558387765
+    second: GarimpeiroMapa_100
+  - first:
+      213: 2736080580496071682
+    second: GarimpeiroMapa_101
+  - first:
+      213: 3352573109916491593
+    second: GarimpeiroMapa_102
+  - first:
+      213: -3382757364835538686
+    second: GarimpeiroMapa_103
+  - first:
+      213: 95473616696530479
+    second: GarimpeiroMapa_104
+  - first:
+      213: 1647670060040080187
+    second: GarimpeiroMapa_105
+  - first:
+      213: -1799704895791860093
+    second: GarimpeiroMapa_106
+  - first:
+      213: -3710693467054853778
+    second: GarimpeiroMapa_107
+  - first:
+      213: 1246726707378869399
+    second: GarimpeiroMapa_108
+  - first:
+      213: 5513452759996585591
+    second: GarimpeiroMapa_109
+  - first:
+      213: 8718174364520967668
+    second: GarimpeiroMapa_110
+  - first:
+      213: -5828650998479908080
+    second: GarimpeiroMapa_111
+  - first:
+      213: -2231033254251176379
+    second: GarimpeiroMapa_112
+  - first:
+      213: 3072793771120203476
+    second: GarimpeiroMapa_113
+  - first:
+      213: 4758656244605152758
+    second: GarimpeiroMapa_114
+  - first:
+      213: 7705899878450540142
+    second: GarimpeiroMapa_115
+  - first:
+      213: -6755953049698153767
+    second: GarimpeiroMapa_116
+  - first:
+      213: 5964673835713532581
+    second: GarimpeiroMapa_117
+  - first:
+      213: 388313678702763234
+    second: GarimpeiroMapa_118
+  - first:
+      213: 3022036155210370354
+    second: GarimpeiroMapa_119
+  - first:
+      213: 6439076039297178294
+    second: GarimpeiroMapa_120
+  - first:
+      213: 985259574662986912
+    second: GarimpeiroMapa_121
+  - first:
+      213: 4350650745733709364
+    second: GarimpeiroMapa_122
+  - first:
+      213: 5125503508094616632
+    second: GarimpeiroMapa_123
+  - first:
+      213: 2746694761040729335
+    second: GarimpeiroMapa_124
+  - first:
+      213: 6322134487124250012
+    second: GarimpeiroMapa_125
+  - first:
+      213: -354556302955592028
+    second: GarimpeiroMapa_126
+  - first:
+      213: -1730528378130759763
+    second: GarimpeiroMapa_127
+  - first:
+      213: -6553813620691136929
+    second: GarimpeiroMapa_128
+  - first:
+      213: -98135193202305396
+    second: GarimpeiroMapa_129
+  - first:
+      213: 8989450136539883736
+    second: GarimpeiroMapa_130
+  - first:
+      213: -103996147511516520
+    second: GarimpeiroMapa_131
+  - first:
+      213: 2542607954283353316
+    second: GarimpeiroMapa_132
+  - first:
+      213: 5879496749698613774
+    second: GarimpeiroMapa_133
+  - first:
+      213: -5904140391668454836
+    second: GarimpeiroMapa_134
+  - first:
+      213: -1392740401996707309
+    second: GarimpeiroMapa_135
+  - first:
+      213: 8462182437307461727
+    second: GarimpeiroMapa_136
+  - first:
+      213: -4010033879106150323
+    second: GarimpeiroMapa_137
+  - first:
+      213: -3371500576149948677
+    second: GarimpeiroMapa_138
+  - first:
+      213: -6741777426007564319
+    second: GarimpeiroMapa_139
+  - first:
+      213: 3351296202839932147
+    second: GarimpeiroMapa_140
+  - first:
+      213: 1409239695398837985
+    second: GarimpeiroMapa_141
+  - first:
+      213: -6563031542135042661
+    second: GarimpeiroMapa_142
+  - first:
+      213: -5306916476996013905
+    second: GarimpeiroMapa_143
+  - first:
+      213: 5083977027712927180
+    second: GarimpeiroMapa_144
+  - first:
+      213: -1069910094404763939
+    second: GarimpeiroMapa_145
+  - first:
+      213: 2509285373733596033
+    second: GarimpeiroMapa_146
+  - first:
+      213: -9148291260848647143
+    second: GarimpeiroMapa_147
+  - first:
+      213: 2577408127330539056
+    second: GarimpeiroMapa_148
+  - first:
+      213: 7130193688398593824
+    second: GarimpeiroMapa_149
+  - first:
+      213: -7279870724562152022
+    second: GarimpeiroMapa_150
+  - first:
+      213: -2974729699755399249
+    second: GarimpeiroMapa_151
+  - first:
+      213: -4559631566665816844
+    second: GarimpeiroMapa_152
+  - first:
+      213: 4923780377252234620
+    second: GarimpeiroMapa_153
+  - first:
+      213: 5577084119333671225
+    second: GarimpeiroMapa_154
+  - first:
+      213: -2568780272543102604
+    second: GarimpeiroMapa_155
+  - first:
+      213: -4710089300501439829
+    second: GarimpeiroMapa_156
+  - first:
+      213: 8749263065748099174
+    second: GarimpeiroMapa_157
+  - first:
+      213: -2740999703022146576
+    second: GarimpeiroMapa_158
+  - first:
+      213: -5758590165521908414
+    second: GarimpeiroMapa_159
+  - first:
+      213: 404466036009570250
+    second: GarimpeiroMapa_160
+  - first:
+      213: 8933380486977062016
+    second: GarimpeiroMapa_161
+  - first:
+      213: 9188934058144262652
+    second: GarimpeiroMapa_162
+  - first:
+      213: -8130806777871235063
+    second: GarimpeiroMapa_163
+  - first:
+      213: -4164916092478477028
+    second: GarimpeiroMapa_164
+  - first:
+      213: -7565264995324362469
+    second: GarimpeiroMapa_165
+  - first:
+      213: 3403130495386784941
+    second: GarimpeiroMapa_166
+  - first:
+      213: -3019328164534195019
+    second: GarimpeiroMapa_167
+  - first:
+      213: 8656642309986810235
+    second: GarimpeiroMapa_168
+  - first:
+      213: 1919720950709185427
+    second: GarimpeiroMapa_169
+  - first:
+      213: -3250112469070834520
+    second: GarimpeiroMapa_170
+  - first:
+      213: -773007514295633499
+    second: GarimpeiroMapa_171
+  - first:
+      213: -5951422244888108263
+    second: GarimpeiroMapa_172
+  - first:
+      213: 7775400986813164591
+    second: GarimpeiroMapa_173
+  - first:
+      213: -2143615392132149198
+    second: GarimpeiroMapa_174
+  - first:
+      213: 9005030561039120663
+    second: GarimpeiroMapa_175
+  - first:
+      213: -4061168682504859978
+    second: GarimpeiroMapa_176
+  - first:
+      213: -2940405412133588181
+    second: GarimpeiroMapa_177
+  - first:
+      213: -7584455096028770858
+    second: GarimpeiroMapa_178
+  - first:
+      213: -8436343389636474945
+    second: GarimpeiroMapa_179
+  - first:
+      213: 1439541981119535480
+    second: GarimpeiroMapa_180
+  - first:
+      213: -2557123053572471931
+    second: GarimpeiroMapa_181
+  - first:
+      213: 1209699856177447404
+    second: GarimpeiroMapa_182
+  - first:
+      213: 4038483447909323125
+    second: GarimpeiroMapa_183
+  - first:
+      213: -7267353987778774729
+    second: GarimpeiroMapa_184
+  - first:
+      213: 6479701106630833962
+    second: GarimpeiroMapa_185
+  - first:
+      213: -1610415772954464878
+    second: GarimpeiroMapa_186
+  - first:
+      213: 1237280672415575410
+    second: GarimpeiroMapa_187
+  - first:
+      213: -1017603006856296234
+    second: GarimpeiroMapa_188
+  - first:
+      213: 8381405999620252687
+    second: GarimpeiroMapa_189
+  - first:
+      213: -2946767055184408815
+    second: GarimpeiroMapa_190
+  - first:
+      213: 6574298104672079428
+    second: GarimpeiroMapa_191
+  - first:
+      213: -3473836659953360264
+    second: GarimpeiroMapa_192
+  - first:
+      213: 3984235821457099573
+    second: GarimpeiroMapa_193
+  - first:
+      213: 489923007663182350
+    second: GarimpeiroMapa_194
+  - first:
+      213: -3621978840224405620
+    second: GarimpeiroMapa_195
+  - first:
+      213: -5096984264439972213
+    second: GarimpeiroMapa_196
+  - first:
+      213: 2119996958905001851
+    second: GarimpeiroMapa_197
+  - first:
+      213: 9033929500454885452
+    second: GarimpeiroMapa_198
+  - first:
+      213: -609157458361138989
+    second: GarimpeiroMapa_199
+  - first:
+      213: -1929648217276513037
+    second: GarimpeiroMapa_200
+  - first:
+      213: -1416245583695737476
+    second: GarimpeiroMapa_201
+  - first:
+      213: -8038926372073700990
+    second: GarimpeiroMapa_202
+  - first:
+      213: -138543428712753507
+    second: GarimpeiroMapa_203
+  - first:
+      213: -5236768311877615292
+    second: GarimpeiroMapa_204
+  - first:
+      213: 4755860045964273936
+    second: GarimpeiroMapa_205
+  - first:
+      213: 7784022623730760530
+    second: GarimpeiroMapa_206
+  - first:
+      213: 7101527504592983829
+    second: GarimpeiroMapa_207
+  - first:
+      213: 7541602336063815414
+    second: GarimpeiroMapa_208
+  - first:
+      213: 8369484258383692579
+    second: GarimpeiroMapa_209
+  - first:
+      213: -3287296072620704270
+    second: GarimpeiroMapa_210
+  - first:
+      213: 7065558215407945478
+    second: GarimpeiroMapa_211
+  - first:
+      213: -4226370915774751020
+    second: GarimpeiroMapa_212
+  - first:
+      213: -8121872376113170766
+    second: GarimpeiroMapa_213
+  - first:
+      213: 7369414256899957435
+    second: GarimpeiroMapa_214
+  - first:
+      213: 9143232560106789627
+    second: GarimpeiroMapa_215
+  - first:
+      213: 1681309037241902217
+    second: GarimpeiroMapa_216
+  - first:
+      213: -6192394491377587586
+    second: GarimpeiroMapa_217
+  - first:
+      213: 1377425738988340832
+    second: GarimpeiroMapa_218
+  - first:
+      213: -2111235833205509193
+    second: GarimpeiroMapa_219
+  - first:
+      213: -5652926848051714901
+    second: GarimpeiroMapa_220
+  - first:
+      213: -6590911275129081092
+    second: GarimpeiroMapa_221
+  - first:
+      213: 7822931142722966497
+    second: GarimpeiroMapa_222
+  - first:
+      213: -2031405967052784242
+    second: GarimpeiroMapa_223
+  - first:
+      213: 7241706922752081539
+    second: GarimpeiroMapa_224
+  - first:
+      213: -2920121087406941751
+    second: GarimpeiroMapa_225
+  - first:
+      213: 3751378753961983090
+    second: GarimpeiroMapa_226
+  - first:
+      213: 3671694470124547478
+    second: GarimpeiroMapa_227
+  - first:
+      213: 6950067337963344521
+    second: GarimpeiroMapa_228
+  - first:
+      213: 2419702435106278982
+    second: GarimpeiroMapa_229
+  - first:
+      213: -5918918143853052603
+    second: GarimpeiroMapa_230
+  - first:
+      213: 1197619934718945257
+    second: GarimpeiroMapa_231
+  - first:
+      213: 1730069611454825324
+    second: GarimpeiroMapa_232
+  - first:
+      213: 5731943441465572817
+    second: GarimpeiroMapa_233
+  - first:
+      213: 5005410017884690090
+    second: GarimpeiroMapa_234
+  - first:
+      213: 6060831277147585617
+    second: GarimpeiroMapa_235
+  - first:
+      213: 4965922156404029919
+    second: GarimpeiroMapa_236
+  - first:
+      213: 2220945781875232767
+    second: GarimpeiroMapa_237
+  - first:
+      213: -6788525950233805083
+    second: GarimpeiroMapa_238
+  - first:
+      213: 3333048873044198233
+    second: GarimpeiroMapa_239
+  - first:
+      213: -7275762339068227100
+    second: GarimpeiroMapa_240
+  - first:
+      213: 4878159769482181812
+    second: GarimpeiroMapa_241
+  - first:
+      213: 2252788237977577043
+    second: GarimpeiroMapa_242
+  - first:
+      213: 427076087409427121
+    second: GarimpeiroMapa_243
+  - first:
+      213: 2769014565988372729
+    second: GarimpeiroMapa_244
+  - first:
+      213: 6890161768310444204
+    second: GarimpeiroMapa_245
+  - first:
+      213: -6091780290675243782
+    second: GarimpeiroMapa_246
+  - first:
+      213: -897605357531810097
+    second: GarimpeiroMapa_247
+  - first:
+      213: 4590359282327120591
+    second: GarimpeiroMapa_248
+  - first:
+      213: -2387913060579880597
+    second: GarimpeiroMapa_249
+  - first:
+      213: -8461938358575515508
+    second: GarimpeiroMapa_250
+  - first:
+      213: 352943676074492384
+    second: GarimpeiroMapa_251
+  - first:
+      213: 6741965228663390265
+    second: GarimpeiroMapa_252
+  - first:
+      213: -734595297295348445
+    second: GarimpeiroMapa_253
+  - first:
+      213: 4351581549194125007
+    second: GarimpeiroMapa_254
+  - first:
+      213: 8433608108762491326
+    second: GarimpeiroMapa_255
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GarimpeiroMapa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1c4c08f632746a0800000000000000
+      internalID: -6465159778258337311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06ed2e293bcc5040800000000000000
+      internalID: 4637805162733102606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b5b931cd38f8d70800000000000000
+      internalID: 9047595157655608115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a60784a6ada64bc0800000000000000
+      internalID: -3799158304403945819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92104c156e837eba0800000000000000
+      internalID: -6059812211738279639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fa05ccae2505480800000000000000
+      internalID: -8912532494162546803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c003127dd0af14d0800000000000000
+      internalID: -3161631540428734270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ada7922109f80730800000000000000
+      internalID: 3965693255170370978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310e15328f2d6cfd0800000000000000
+      internalID: -2321936594676621293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788550a37ef6296f0800000000000000
+      internalID: -679357554877966201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_10
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578b157b8a661a250800000000000000
+      internalID: 5954153057176631413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_11
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458b0b081103bc9d0800000000000000
+      internalID: -2753053895475283884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_12
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0e3313b8470c190800000000000000
+      internalID: -7944221601506795309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_13
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e0e1b6be0ebae30800000000000000
+      internalID: 4515950353088122466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_14
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737c7621498c3a370800000000000000
+      internalID: 8332724273855055671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_15
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 548
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7c946144d962e10800000000000000
+      internalID: 2172596786010114028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb6ab7f784e5a6b0800000000000000
+      internalID: -5285567315021501489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_17
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3bbd317e4819bc0800000000000000
+      internalID: -3778092484381658172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9b5619068fe0740800000000000000
+      internalID: 5120302920006744513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fd2de29289005b0800000000000000
+      internalID: -5404152250197942523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bce852f0edaad3e0800000000000000
+      internalID: -2028117500526793550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa38f6f109070e930800000000000000
+      internalID: 4170457019250082730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fba37fa829a5720800000000000000
+      internalID: 2835740040934113139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5f8ae9c7127e090800000000000000
+      internalID: -8005392993506232892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_24
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f278d6a15ca0ca40800000000000000
+      internalID: 5386494621026644725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_25
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c132ef4804490a760800000000000000
+      internalID: 7467131187010347804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_26
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aebc61874712260800000000000000
+      internalID: 7071060949075749396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_27
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc54e253bb533c6c0800000000000000
+      internalID: -4124393755573860916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_28
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e237671df7d41b220800000000000000
+      internalID: 2499864479537722158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_29
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8f20c67d586d1d0800000000000000
+      internalID: -3326324114489935699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_30
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ddc03e2e2616540800000000000000
+      internalID: 4999385787969363254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_31
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 512
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9132c862394aa5840800000000000000
+      internalID: 5213660470548636441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8d738d7538f3b90800000000000000
+      internalID: -7259939660985018176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_33
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d88ccbaf44d90810800000000000000
+      internalID: 1732148970350479568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9e769b1230133f0800000000000000
+      internalID: -922953005254841900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_35
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea65e1b390d91a740800000000000000
+      internalID: 5161579310915409582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9643ae36b5807c4f0800000000000000
+      internalID: -808668419478375319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_37
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b83b57be3561d980800000000000000
+      internalID: -8515914100342310728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_38
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f8528de057dabb0800000000000000
+      internalID: -4923150111029752026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_39
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66088aeba608ca020800000000000000
+      internalID: 2354397901161529446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_40
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acd2c3031c0957f0800000000000000
+      internalID: -623453797607088985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_41
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76e5ceecd0d28e20800000000000000
+      internalID: 3351470720034399869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_42
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbac04dd4ccfd090800000000000000
+      internalID: -8007456977799304207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_43
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad44c00290422a180800000000000000
+      internalID: -9105675874978741030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_44
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0de176a858502b0800000000000000
+      internalID: -5618938130592771860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_45
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ddcfa9e0637c2e0800000000000000
+      internalID: -2105654864414712500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_46
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75780fe45a08d090800000000000000
+      internalID: -8009640577374587525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_47
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 476
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935c57e8e234e3760800000000000000
+      internalID: 7439457501700277561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e464a2c8bd6b180800000000000000
+      internalID: -9099844602004353407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_49
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8d51c55c3f2a060800000000000000
+      internalID: 6963396002847250686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2029b0d6cc2500fe0800000000000000
+      internalID: -1224888060688494078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_51
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d070badf5bbfadc0800000000000000
+      internalID: -3625473154644676400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e783c153e53d73a40800000000000000
+      internalID: 5347975484097181822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_53
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e100efebdb17ec1b0800000000000000
+      internalID: -5634441024026836962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_54
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c689a723f9673c90800000000000000
+      internalID: -7190161787010316600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_55
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfbe14572dde43d0800000000000000
+      internalID: -3220393522538561602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c989ad124d638f0800000000000000
+      internalID: -561027861694604230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_57
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab6a8e02e22f3050800000000000000
+      internalID: 5782378800868912032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_58
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f212e68773508f890800000000000000
+      internalID: -7424178249918439121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_59
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541d201d20b7da100800000000000000
+      internalID: 120888017035645253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_60
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d6367cc87b6e6d0800000000000000
+      internalID: -2961477889681035877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_61
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed998a50095d3d650800000000000000
+      internalID: 6256579121894693342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_62
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951f28927d0e35620800000000000000
+      internalID: 2761798211227283801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_63
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 440
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3a309b4c50c2aa0800000000000000
+      internalID: -6184561845810781228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3524b9a3f4b36c6f0800000000000000
+      internalID: -664778683518860717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_65
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36160e2a478198a00800000000000000
+      internalID: 759164901416526179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_66
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05713977fb8d2f0d0800000000000000
+      internalID: -3390409252600080560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_67
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4003e8e5935bbe0800000000000000
+      internalID: -1462199425736637194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_68
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bd687b83ad50d00800000000000000
+      internalID: 938396034508708733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_69
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e950548a50ad36570800000000000000
+      internalID: 8458844242964710814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_70
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b287e56c7f959b0800000000000000
+      internalID: -5090765472405116043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_71
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad710b2a9db6bd10800000000000000
+      internalID: 2141107142705380772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_72
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df07d4612cd6b9ce0800000000000000
+      internalID: -1397402579003150083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_73
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185339cb362cddcd0800000000000000
+      internalID: -2531653681891035775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_74
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6713972d252560af0800000000000000
+      internalID: -430566198695349898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_75
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3723180179ac1aa70800000000000000
+      internalID: 8836566694043398771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_76
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271b5d0e388882d60800000000000000
+      internalID: 7865686849196765554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_77
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1091575868cd0ae0800000000000000
+      internalID: -1581387543670058982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_78
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24911770bc6c8610800000000000000
+      internalID: 1624793070741591086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_79
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 404
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17957edd736ac5e0800000000000000
+      internalID: -1888587701474191587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b3e7bcb1a471c80800000000000000
+      internalID: -8352125500696675573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_81
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b629a00d5f102ce0800000000000000
+      internalID: -1432110197200312654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_82
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ed1a3dbb4e15a60800000000000000
+      internalID: 7661155936494542458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_83
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2153b532e31771cd0800000000000000
+      internalID: -2587474949205969646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_84
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d319a42d326987510800000000000000
+      internalID: 1547151552597889341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_85
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa426d276f0b2310800000000000000
+      internalID: 1381214646536653481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_86
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b916dc953d08d4e30800000000000000
+      internalID: 4489386048791339419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_87
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71857db886539cbf0800000000000000
+      internalID: -303652776731781097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_88
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa60a47eb3e29e90800000000000000
+      internalID: -7020298461977220363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_89
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e5036f8002b9e10800000000000000
+      internalID: 2205391665390181923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_90
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48138ccafd8436a80800000000000000
+      internalID: -8474849948267433596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_91
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d09e386b98a27900800000000000000
+      internalID: 680791879108694225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_92
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7aee2fc883aae80800000000000000
+      internalID: -8166652796260669530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_93
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4895a70ae4e9950800000000000000
+      internalID: 6457685366850290852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_94
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9328c05da646db800800000000000000
+      internalID: 629769932905415225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_95
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 368
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8da0c75203609350800000000000000
+      internalID: 6021421563507682702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d458137ab3c03a90800000000000000
+      internalID: -7336148587424230187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_97
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a54c6b9950bcb760800000000000000
+      internalID: 7475043380434322853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_98
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce43cfa77d63d8e0800000000000000
+      internalID: -1669870676006973754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_99
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587be6d1e7b514ce0800000000000000
+      internalID: -1422755410054563963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_100
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eca70bd11e95000800000000000000
+      internalID: 25298790558387765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_101
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c1055aac288f520800000000000000
+      internalID: 2736080580496071682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_102
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f59141b7bb68e20800000000000000
+      internalID: 3352573109916491593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_103
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20924ab69180e01d0800000000000000
+      internalID: -3382757364835538686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_104
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f265e90afb0335100800000000000000
+      internalID: 95473616696530479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_105
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b4cbb9033bdd610800000000000000
+      internalID: 1647670060040080187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_106
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3867bc9bee92607e0800000000000000
+      internalID: -1799704895791860093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_107
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6135d9a3f7f08cc0800000000000000
+      internalID: -3710693467054853778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_108
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7945f4db5534d4110800000000000000
+      internalID: 1246726707378869399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_109
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7765e7dd218b38c40800000000000000
+      internalID: 5513452759996585591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_110
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd6037c46d2df870800000000000000
+      internalID: 8718174364520967668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_111
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 332
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01311e36cc87c1fa0800000000000000
+      internalID: -5828650998479908080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e56466317c901e0800000000000000
+      internalID: -2231033254251176379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_113
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d617ab87a1c4aa20800000000000000
+      internalID: 3072793771120203476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_114
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd62eb54a42a0240800000000000000
+      internalID: 4758656244605152758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_115
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e25c1ac1bd0fa60800000000000000
+      internalID: 7705899878450540142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_116
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da4681fe780e32a0800000000000000
+      internalID: -6755953049698153767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_117
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a295ca5047c6c250800000000000000
+      internalID: 5964673835713532581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_118
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecd080cb31936500800000000000000
+      internalID: 388313678702763234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_119
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d83b92fdd60f920800000000000000
+      internalID: 3022036155210370354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_120
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba9904ca813c5950800000000000000
+      internalID: 6439076039297178294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_121
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acf65fec585cad00800000000000000
+      internalID: 985259574662986912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_122
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43efe317dcd906c30800000000000000
+      internalID: 4350650745733709364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_123
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8348ff6d842712740800000000000000
+      internalID: 5125503508094616632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_124
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4524225583e1620800000000000000
+      internalID: 2746694761040729335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_125
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d8947e1dbbcb750800000000000000
+      internalID: 6322134487124250012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_126
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6c475cbec541bf0800000000000000
+      internalID: -354556302955592028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_127
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 296
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf78cbdb9debf7e0800000000000000
+      internalID: -1730528378130759763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e869e4c3d2c05a0800000000000000
+      internalID: -6553813620691136929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_129
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86563dcf8a53aef0800000000000000
+      internalID: -98135193202305396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_130
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8eb826541f0cc70800000000000000
+      internalID: 8989450136539883736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_131
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89221990e088e8ef0800000000000000
+      internalID: -103996147511516520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_132
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4542e8678294320800000000000000
+      internalID: 2542607954283353316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_133
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0289d7942b289150800000000000000
+      internalID: 5879496749698613774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_134
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ae0926897401ea0800000000000000
+      internalID: -5904140391668454836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_135
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ac6a2cbfdfbace0800000000000000
+      internalID: -1392740401996707309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_136
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50b2489716bf6570800000000000000
+      internalID: 8462182437307461727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_137
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40a89ade6f7958c0800000000000000
+      internalID: -4010033879106150323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_138
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6be86c6160631d0800000000000000
+      internalID: -3371500576149948677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_139
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef521886256072a0800000000000000
+      internalID: -6741777426007564319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_140
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcb36bf322328e20800000000000000
+      internalID: 3351296202839932147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_141
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee90a75900ae8310800000000000000
+      internalID: 1409239695398837985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_142
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d4b59b59d6be4a0800000000000000
+      internalID: -6563031542135042661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_143
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 260
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa03cf7d49b0a56b0800000000000000
+      internalID: -5306916476996013905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5431fab2aed8640800000000000000
+      internalID: 5083977027712927180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_145
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde3661107ae621f0800000000000000
+      internalID: -1069910094404763939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_146
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b697da0c5c2d220800000000000000
+      internalID: 2509285373733596033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_147
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9145e47619dba0180800000000000000
+      internalID: -9148291260848647143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036ddbe390bc4c320800000000000000
+      internalID: 2577408127330539056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_149
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ffab8d16983f260800000000000000
+      internalID: 7130193688398593824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_150
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa515bb7524b8fa90800000000000000
+      internalID: -7279870724562152022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_151
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7664f4913a7b6d0800000000000000
+      internalID: -2974729699755399249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_152
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4e9328f3fe8b0c0800000000000000
+      internalID: -4559631566665816844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_153
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7588227a28c45440800000000000000
+      internalID: 4923780377252234620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_154
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9311b573578c56d40800000000000000
+      internalID: 5577084119333671225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_155
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479890db3fbd95cd0800000000000000
+      internalID: -2568780272543102604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_156
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa5e3f7cb662aeb0800000000000000
+      internalID: -4710089300501439829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_157
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6605c581760ab6970800000000000000
+      internalID: 8749263065748099174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_158
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbe9e3ea4306f9d0800000000000000
+      internalID: -2740999703022146576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_159
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 224
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d320931c06510b0800000000000000
+      internalID: -5758590165521908414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf8f0087b3fc9500800000000000000
+      internalID: 404466036009570250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_161
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0848ca9c83eb9fb70800000000000000
+      internalID: 8933380486977062016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_162
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf96d2047d6a58f70800000000000000
+      internalID: 9188934058144262652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_163
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90885ab7052992f80800000000000000
+      internalID: -8130806777871235063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_164
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d238c61ee3336c0800000000000000
+      internalID: -4164916092478477028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_165
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b118ef9b197c20790800000000000000
+      internalID: -7565264995324362469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_166
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da414dda7295a3f20800000000000000
+      internalID: 3403130495386784941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_167
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc6b9c08013916d0800000000000000
+      internalID: -3019328164534195019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_168
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79716ae052922870800000000000000
+      internalID: 8656642309986810235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_169
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b65e6980834aa10800000000000000
+      internalID: 1919720950709185427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_170
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a417f0ede745e2d0800000000000000
+      internalID: -3250112469070834520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_171
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a973b5e2c9b545f0800000000000000
+      internalID: -773007514295633499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_172
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9132611100d486da0800000000000000
+      internalID: -5951422244888108263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_173
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c683d6006c7eb60800000000000000
+      internalID: 7775400986813164591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_174
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23057e088295042e0800000000000000
+      internalID: -2143615392132149198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_175
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719f546a59b48fc70800000000000000
+      internalID: 9005030561039120663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be4b5aa994d3a7c0800000000000000
+      internalID: -4061168682504859978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_177
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23342a4bd49137d0800000000000000
+      internalID: -2940405412133588181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_178
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddcd4a364a9eb690800000000000000
+      internalID: -7584455096028770858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_179
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7c08182661cea80800000000000000
+      internalID: -8436343389636474945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_180
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87954e70ec74af310800000000000000
+      internalID: 1439541981119535480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_181
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583c9d88126438cd0800000000000000
+      internalID: -2557123053572471931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_182
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce14c442c97b9c010800000000000000
+      internalID: 1209699856177447404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_183
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5711eef8c439b0830800000000000000
+      internalID: 4038483447909323125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_184
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7397d6d5d0c252b90800000000000000
+      internalID: -7267353987778774729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_185
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27bf6753d58ce950800000000000000
+      internalID: 6479701106630833962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_186
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dec580367a6a9e0800000000000000
+      internalID: -1610415772954464878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_187
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d69c65734bb2110800000000000000
+      internalID: 1237280672415575410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_188
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d806fde47fb0e1f0800000000000000
+      internalID: -1017603006856296234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_189
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0461bd995cb05470800000000000000
+      internalID: 8381405999620252687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_190
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fc8e7d9fafa17d0800000000000000
+      internalID: -2946767055184408815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_191
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 152
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ec0884b499c3b50800000000000000
+      internalID: 6574298104672079428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87220c386f37acfc0800000000000000
+      internalID: -3473836659953360264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_193
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b4657ce59da4730800000000000000
+      internalID: 3984235821457099573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_194
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e021e07316e8cc600800000000000000
+      internalID: 489923007663182350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_195
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8761745f652cbdc0800000000000000
+      internalID: -3621978840224405620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_196
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ebc4401dfd349b0800000000000000
+      internalID: -5096984264439972213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_197
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77e07c700ebb6d10800000000000000
+      internalID: 2119996958905001851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_198
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4819805407fe5d70800000000000000
+      internalID: 9033929500454885452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_199
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0ca12e486db87f0800000000000000
+      internalID: -609157458361138989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_200
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f484cb8b238835e0800000000000000
+      internalID: -1929648217276513037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_201
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d891d252c785ce0800000000000000
+      internalID: -1416245583695737476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_202
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28107018e0fff6090800000000000000
+      internalID: -8038926372073700990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_203
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d969c915c7bc31ef0800000000000000
+      internalID: -138543428712753507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_204
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441438747f24357b0800000000000000
+      internalID: -5236768311877615292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_205
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0196c21a385300240800000000000000
+      internalID: 4755860045964273936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_206
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b7313b557660c60800000000000000
+      internalID: 7784022623730760530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_207
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 116
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5175ee1d3a1bd8260800000000000000
+      internalID: 7101527504592983829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fef6561e5729a860800000000000000
+      internalID: 7541602336063815414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_209
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3230f2ee691662470800000000000000
+      internalID: 8369484258383692579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_210
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdf7e783ad2162d0800000000000000
+      internalID: -3287296072620704270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_211
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607cb3113c7ed0260800000000000000
+      internalID: 7065558215407945478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_212
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de143c5b0ae855c0800000000000000
+      internalID: -4226370915774751020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_213
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b677befa10594f80800000000000000
+      internalID: -8121872376113170766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_214
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2a839c83b654660800000000000000
+      internalID: 7369414256899957435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_215
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa53fb029943ee70800000000000000
+      internalID: 9143232560106789627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_216
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984257259a5355710800000000000000
+      internalID: 1681309037241902217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_217
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a6a50d402301aa0800000000000000
+      internalID: -6192394491377587586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_218
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06641e469699d1310800000000000000
+      internalID: 1377425738988340832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_219
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3b5bc023263b2e0800000000000000
+      internalID: -2111235833205509193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_220
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4eb907bf4cc81b0800000000000000
+      internalID: -5652926848051714901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_221
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf270db8d116884a0800000000000000
+      internalID: -6590911275129081092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_222
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3d7583d62a09c60800000000000000
+      internalID: 7822931142722966497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_223
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8db53b290ffec3e0800000000000000
+      internalID: -2031405967052784242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38eff1af316bf7460800000000000000
+      internalID: 7241706922752081539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_225
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c95bfba755a977d0800000000000000
+      internalID: -2920121087406941751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_226
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cf9dfd9139f0430800000000000000
+      internalID: 3751378753961983090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_227
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d2a87caaa74f230800000000000000
+      internalID: 3671694470124547478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_228
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982995cbb69937060800000000000000
+      internalID: 6950067337963344521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_229
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e48aa6b82849120800000000000000
+      internalID: 2419702435106278982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_230
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d3605de47cbdda0800000000000000
+      internalID: -5918918143853052603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_231
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e769d04cfcce9010800000000000000
+      internalID: 1197619934718945257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_232
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6386733521720810800000000000000
+      internalID: 1730069611454825324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_233
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd7f2dd034fb8f40800000000000000
+      internalID: 5731943441465572817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_234
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6d23734e9c67540800000000000000
+      internalID: 5005410017884690090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_235
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c75f55fe56c1450800000000000000
+      internalID: 6060831277147585617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_236
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd934b204ef7ae440800000000000000
+      internalID: 4965922156404029919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_237
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff431aeb6262de10800000000000000
+      internalID: 2220945781875232767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_238
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eefacb8d9f4ac1a0800000000000000
+      internalID: -6788525950233805083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_239
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 44
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953c0d07a4e514e20800000000000000
+      internalID: 3333048873044198233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e15ca583bc470b90800000000000000
+      internalID: -7275762339068227100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_241
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc3699f674b2b340800000000000000
+      internalID: 4878159769482181812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_242
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356e4d677f2834f10800000000000000
+      internalID: 2252788237977577043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_243
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b24a1250774de500800000000000000
+      internalID: 427076087409427121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_244
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f09e9fa3148d6620800000000000000
+      internalID: 2769014565988372729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_245
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca01f156f95ce9f50800000000000000
+      internalID: 6890161768310444204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_246
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4839ce916a57ba0800000000000000
+      internalID: -6091780290675243782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_247
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc634dbdea01b83f0800000000000000
+      internalID: -897605357531810097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_248
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca668e427b34bf30800000000000000
+      internalID: 4590359282327120591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_249
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61de9d19bd6cded0800000000000000
+      internalID: -2387913060579880597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_250
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88bad965e7219a80800000000000000
+      internalID: -8461938358575515508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_251
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e104264768e5e400800000000000000
+      internalID: 352943676074492384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_252
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930448ea7a5409d50800000000000000
+      internalID: 6741965228663390265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_253
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dc90b18713ec5f0800000000000000
+      internalID: -734595297295348445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_254
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce1cd20d5ce36c30800000000000000
+      internalID: 4351581549194125007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarimpeiroMapa_255
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 8
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb964a944e13a0570800000000000000
+      internalID: 8433608108762491326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

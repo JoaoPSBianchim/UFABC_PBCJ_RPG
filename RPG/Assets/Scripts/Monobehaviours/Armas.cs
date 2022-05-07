@@ -154,7 +154,6 @@ public class Armas : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             atirando = true;
-            print("Apertei");
             DisparaMunicao();
         }
         if (Input.GetMouseButtonDown(1))

@@ -39,7 +39,7 @@ public class Perambular : MonoBehaviour
     {
         if(circleCollider != null)
         {
-            Gizmos.DrawSphere(transform.position, circleCollider.radius);
+            Gizmos.DrawWireSphere(transform.position, circleCollider.radius);
         }
     }
 
@@ -89,6 +89,7 @@ public class Perambular : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         animator.SetBool("Caminhando", false);
+        print("caminhando");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -124,4 +125,5 @@ public class Perambular : MonoBehaviour
     {
         Debug.DrawLine(rb2D.position, posicaoFinal, Color.red);
     }
+
 }
