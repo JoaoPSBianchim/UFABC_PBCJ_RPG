@@ -12,7 +12,7 @@ public class RPGGameManager : MonoBehaviour
 
     private void Awake()
     {
-        if(instanciaCompartilhada != null && instanciaCompartilhada != this)
+        if (instanciaCompartilhada != null && instanciaCompartilhada != this)
         {
             Destroy(gameObject);
         }
@@ -34,17 +34,16 @@ public class RPGGameManager : MonoBehaviour
 
     public void SpawnPlayer()
     {
-        if(playerPontoSpawn != null)
+        if (playerPontoSpawn != null)
         {
             GameObject player = playerPontoSpawn.SpawnO();
             cameraManager.virtualCamera.Follow = player.transform;
-
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
