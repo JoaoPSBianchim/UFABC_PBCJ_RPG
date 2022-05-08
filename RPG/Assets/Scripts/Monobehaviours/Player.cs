@@ -124,8 +124,8 @@ public class Player : Caractere
                         break;
 
                     case Item.TipoItem.POTION:
-                        MaxPontoDano = MaxPontoDano * 2;
-                        deveDesaparecer = AjustePontosDano(this.pontosDano.valor);
+                        PowerUp();
+                        deveDesaparecer = inventario.AddItem(objeto);
                         print(MaxPontoDano.ToString() + pontosDano.valor.ToString() + " ");
                         break;
 
@@ -172,7 +172,7 @@ public class Player : Caractere
         animator.SetBool("Super", true);
         MaxPontoDano *= 2;
         healthBar.maxPontosDano *= 2;
-        pontosDano.valor = MaxPontoDano;
+        AjustePontosDano(pontosDano.valor);
 
         if (espada != null)
         {

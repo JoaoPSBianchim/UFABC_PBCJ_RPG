@@ -131,7 +131,20 @@ public class Perambular : MonoBehaviour
                 animator.SetBool("Caminhando", true);
                 Vector3 novaPosicao = Vector3.MoveTowards(rbParaMover.position, posicaoFinal, velocidade * Time.deltaTime);
                 rb2D.MovePosition(novaPosicao);
-                distanciaFaltante = (transform.position - posicaoFinal).sqrMagnitude;
+                var translacao = transform.position - posicaoFinal;
+                distanciaFaltante = translacao.sqrMagnitude;
+
+                // Atualiza as variáveis de animação.
+                if (Mathf.Abs(translacao.x) > Mathf.Abs(translacao.y))
+                {
+                    animator.SetFloat("dirX", translacao.x < 0 ? 1 : -1);
+                    animator.SetFloat("dirY", 0);
+                }
+                else
+                {
+                    animator.SetFloat("dirX", 0);
+                    animator.SetFloat("dirY", translacao.y < 0 ? 1 : -1);
+                }
             }
             yield return new WaitForFixedUpdate();
         }

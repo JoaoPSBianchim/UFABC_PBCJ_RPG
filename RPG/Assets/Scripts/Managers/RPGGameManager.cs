@@ -97,10 +97,10 @@ public class RPGGameManager : MonoBehaviour
             SceneManager.LoadScene(nextScene);
         }
 
-        // Quando é a última cena, a única condição de vitória é matar o boss.
-        if (SceneManager.GetActiveScene().name == "StageBoss" && enemies.Length == 0)
-        {
-            SceneManager.LoadScene(nextScene);
-        }
+        // // Quando é a última cena, a única condição de vitória é matar o boss.
+        // if (SceneManager.GetActiveScene().name == "StageBoss" && enemies.Length == 0)
+        // {
+        //     SceneManager.LoadScene(nextScene);
+        // }
     }
 }
