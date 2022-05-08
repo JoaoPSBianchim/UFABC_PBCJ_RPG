@@ -24,7 +24,9 @@ public class Item : ScriptableObject
         MOEDA,
         HEALTH,
         DIAMANTE,
-        ESCUDO
+        ESCUDO,
+        KNIFE,
+        POTION,
     }
 
     // Tipo do item.

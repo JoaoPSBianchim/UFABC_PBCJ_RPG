@@ -102,6 +102,7 @@ public class Player : Caractere
                     case Item.TipoItem.MOEDA:
                     case Item.TipoItem.DIAMANTE:
                     case Item.TipoItem.ESCUDO:
+                    case Item.TipoItem.KNIFE:
                         deveDesaparecer = inventario.AddItem(objeto);
                         break;
 

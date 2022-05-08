@@ -1,31 +1,56 @@
 using System.Collections;
 using UnityEngine;
 
+/// <summary>
+/// Comportamento IA de perâmbulo e perseguição dos inimigos.
+/// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(CircleCollider2D))]
 [RequireComponent(typeof(Animator))]
 public class Perambular : MonoBehaviour
 {
-    public float velocidadePerseguicao;         //Velocidade do Inimigo na �rea de Spot
-    public float velocidadePerambular;          //Velocidade do Inimigo passeando
-    float velocidadeCorrente;                   //Velocidade do Inimigo atribu�da
+    // Velocidade do Inimigo na área de Spot.
+    public float velocidadePerseguicao;
 
-    public float intervalorMudancaDirecao;      //Tempo para alterar a direcao
-    public bool perseguePlayer;                 //Indicador de perseguidor ou nao
+    // Velocidade do Inimigo passeando.
+    public float velocidadePerambular;
 
+    // Velocidade do Inimigo atribuída.
+    float velocidadeCorrente;
+
+    // Tempo para alterar a direcao.
+    public float intervalorMudancaDirecao;
+
+    // Indicador de perseguidor ou nao.
+    public bool perseguePlayer;
+
+    // Máxima distância que o inimigo pode perambular.
+    public float maxDistancia;
+
+    // Coroutine de movimentação.
     Coroutine moveCoroutine;
 
-    Rigidbody2D rb2D;                           //Armazena o componente RigidBody2D
-    Animator animator;                          //Armazena o componente Animator
+    // Armazena o componente RigidBody2D.
+    Rigidbody2D rb2D;
 
-    Transform alvoTransform;                    //Armazena o componente Transform do alvo
+    // Armazena o componente Animator.
+    Animator animator;
 
+    // Armazena o componente Transform do alvo.
+    Transform alvoTransform;
+
+    // Posicao final de movimentação.
     Vector3 posicaoFinal;
-    float anguloAtual = 0;                      //Angulo Atribuido
 
-    CircleCollider2D circleCollider;            //Armazena o componente Spot
+    // Angulo atribuido.
+    float anguloAtual = 0;
 
-    // Start is called before the first frame update
+    // Armazena o componente Spot.
+    CircleCollider2D circleCollider;
+
+    /// <summary>
+    /// Chamado antes da atualização do primeiro frame.
+    /// </summary>
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -35,20 +60,27 @@ public class Perambular : MonoBehaviour
         circleCollider = GetComponent<CircleCollider2D>();
     }
 
+    /// <summary>
+    /// Para visualizar os componentes na tela (principalmente de colisão).
+    /// </summary>
     private void OnDrawGizmos()
     {
-        if(circleCollider != null)
+        if (circleCollider != null)
         {
             Gizmos.DrawWireSphere(transform.position, circleCollider.radius);
         }
     }
 
+    /// <summary>
+    /// Coroutine para perambular o inimigo, uma espécie de IA.
+    /// </summary>
+    /// <returns></returns>
     public IEnumerator rotinaPerambular()
     {
         while (true)
         {
             EscolheNovoPontoFinal();
-            if(moveCoroutine != null)
+            if (moveCoroutine != null)
             {
                 StopCoroutine(moveCoroutine);
             }
@@ -56,30 +88,45 @@ public class Perambular : MonoBehaviour
             yield return new WaitForSeconds(intervalorMudancaDirecao);
         }
     }
-        
+
+    /// <summary>
+    /// Randomiza o novo ponto final de movimentação de perâmbulo.
+    /// </summary>
     void EscolheNovoPontoFinal()
     {
         anguloAtual += Random.Range(0, 360);
         anguloAtual = Mathf.Repeat(anguloAtual, 360);
-        posicaoFinal += Vector3ParaAngulo(anguloAtual);
+        posicaoFinal = Vector3ParaAngulo(anguloAtual);
     }
 
+    /// <summary>
+    /// Obtém posição a partir do ângulo.
+    /// </summary>
+    /// <param name="anguloEntradaGraus">Ângulo para obter a posição.</param>
+    /// <returns>Vetor posição.</returns>
     Vector3 Vector3ParaAngulo(float anguloEntradaGraus)
     {
         float anguloEntradaRadianos = anguloEntradaGraus * Mathf.Deg2Rad;
-        return new Vector3(Mathf.Cos(anguloEntradaRadianos), Mathf.Sin(anguloEntradaRadianos), 0);
+        float distancia = Random.Range(1, maxDistancia + 1);
+        return transform.position + (new Vector3(Mathf.Cos(anguloEntradaRadianos), Mathf.Sin(anguloEntradaRadianos), 0)) * distancia;
     }
 
+    /// <summary>
+    /// Realiza a movimentação do inimigo.
+    /// </summary>
+    /// <param name="rbParaMover">Corpo rígido para aplicar física.</param>
+    /// <param name="velocidade">Velocidade de movimentação.</param>
+    /// <returns></returns>
     public IEnumerator Mover(Rigidbody2D rbParaMover, float velocidade)
     {
         float distanciaFaltante = (transform.position - posicaoFinal).sqrMagnitude;
         while (distanciaFaltante > float.Epsilon)
         {
-            if(alvoTransform != null)
+            if (alvoTransform != null)
             {
                 posicaoFinal = alvoTransform.position;
             }
-            if(rbParaMover != null)
+            if (rbParaMover != null)
             {
                 animator.SetBool("Caminhando", true);
                 Vector3 novaPosicao = Vector3.MoveTowards(rbParaMover.position, posicaoFinal, velocidade * Time.deltaTime);
@@ -92,13 +139,17 @@ public class Perambular : MonoBehaviour
         print("caminhando");
     }
 
+    /// <summary>
+    /// Trigger da colisão de spot.
+    /// </summary>
+    /// <param name="collision">Objeto colidido.</param>
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && perseguePlayer)
         {
             velocidadeCorrente = velocidadePerseguicao;
             alvoTransform = collision.gameObject.transform;
-            if(moveCoroutine != null)
+            if (moveCoroutine != null)
             {
                 StopCoroutine(moveCoroutine);
             }
@@ -106,13 +157,17 @@ public class Perambular : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Finalização da trigger da colisão de spot.
+    /// </summary>
+    /// <param name="collision"></param>
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             animator.SetBool("Caminhando", false);
             velocidadeCorrente = velocidadePerambular;
-            if(moveCoroutine != null)
+            if (moveCoroutine != null)
             {
                 StopCoroutine(moveCoroutine);
             }
@@ -120,7 +175,9 @@ public class Perambular : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
+    /// <summary>
+    /// Atualização a cada frame.
+    /// </summary>
     void Update()
     {
         Debug.DrawLine(rb2D.position, posicaoFinal, Color.red);

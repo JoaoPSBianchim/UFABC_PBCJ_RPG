@@ -201,3 +201,4 @@ MonoBehaviour:
   velocidadePerambular: 1
   intervalorMudancaDirecao: 3
   perseguePlayer: 1
+  maxDistancia: 10
