@@ -139,12 +139,16 @@ PrefabInstance:
       value: InimigoPontoSpawn
       objectReference: {fileID: 0}
     - target: {fileID: 2795075805922234691, guid: d265709452263f74089e4507817d0d68, type: 3}
+      propertyPath: autoSpawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795075805922234691, guid: d265709452263f74089e4507817d0d68, type: 3}
       propertyPath: prefabParaSpawn
       value: 
-      objectReference: {fileID: 7448649443166771047, guid: 17f12202be9f4d348a195e5f24bceebb, type: 3}
+      objectReference: {fileID: 7448649443166771047, guid: 4bf080943f6cb804e92109c5842390f9, type: 3}
     - target: {fileID: 2795075805922234691, guid: d265709452263f74089e4507817d0d68, type: 3}
       propertyPath: intervaloRepeticao
-      value: 40
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8419916685519393898, guid: d265709452263f74089e4507817d0d68, type: 3}
       propertyPath: m_RootOrder
@@ -152,11 +156,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8419916685519393898, guid: d265709452263f74089e4507817d0d68, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.01
+      value: 3.49
       objectReference: {fileID: 0}
     - target: {fileID: 8419916685519393898, guid: d265709452263f74089e4507817d0d68, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.28
+      value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: 8419916685519393898, guid: d265709452263f74089e4507817d0d68, type: 3}
       propertyPath: m_LocalPosition.z
@@ -284,6 +288,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 380008361851685606, guid: b8e859279da3c2948924766fd1e350ea, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 800
+      objectReference: {fileID: 0}
     - target: {fileID: 7342087809617433225, guid: b8e859279da3c2948924766fd1e350ea, type: 3}
       propertyPath: m_Name
       value: HealthBarO
@@ -298,7 +306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8295578396310637629, guid: b8e859279da3c2948924766fd1e350ea, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8295578396310637629, guid: b8e859279da3c2948924766fd1e350ea, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3575,6 +3583,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1c2d6d6008674d41a2eed4d834462c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &480053422
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2086610109952924699, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
+      propertyPath: m_Name
+      value: PocaoO
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119120951896346570, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119120951896346570, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119120951896346570, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119120951896346570, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.6410646
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119120951896346570, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119120951896346570, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119120951896346570, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119120951896346570, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119120951896346570, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119120951896346570, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119120951896346570, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 34f5f6a9fcaabfe4fa16dac5d5fab977, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -7366,7 +7431,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2028377971
 PrefabInstance:
@@ -7489,9 +7554,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
+      propertyPath: nextScene
+      value: Victory
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
       propertyPath: cameraManager
       value: 
       objectReference: {fileID: 1829070566}
+    - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
+      propertyPath: gameOverScene
+      value: GameOver
+      objectReference: {fileID: 0}
     - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
       propertyPath: playerPontoSpawn
       value: 

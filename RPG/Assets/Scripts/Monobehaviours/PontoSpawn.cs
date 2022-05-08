@@ -10,15 +10,27 @@ public class PontoSpawn : MonoBehaviour
     // Intervalo para spawn repetitivo do prefab.
     public float intervaloRepeticao;
 
+    // Indica se deve fazer o spawn automaticamente.
+    public bool autoSpawn;
+
     /// <summary>
     /// Chamado antes da atualização do primeiro frame.
     /// </summary>
     void Start()
     {
+        if (!autoSpawn)
+        {
+            return;
+        }
+
         // Configura timer para spawn, se necessário.
         if (intervaloRepeticao > 0)
         {
             InvokeRepeating("SpawnO", 0.0f, intervaloRepeticao);
+        }
+        else
+        {
+            SpawnO();
         }
     }
 

@@ -101,7 +101,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.011324048, y: -0.1056871}
+  m_Offset: {x: 0.001688242, y: -0.124958634}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -112,7 +112,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.37342715, y: 0.5546044}
+  m_Size: {x: 0.3734269, y: 0.68950516}
   m_EdgeRadius: 0
 --- !u!50 &4485411338865135141
 Rigidbody2D:
@@ -197,8 +197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d5379f697bcfe346889a15e9bc4987a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadePerseguicao: 2
-  velocidadePerambular: 1
+  velocidadePerseguicao: 4
+  velocidadePerambular: 2
   intervalorMudancaDirecao: 3
   perseguePlayer: 1
   maxDistancia: 10

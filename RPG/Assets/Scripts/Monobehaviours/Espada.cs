@@ -16,7 +16,7 @@ public class Espada : MonoBehaviour
         if (collision is BoxCollider2D)
         {
             Inimigo inimigo = collision.gameObject.GetComponent<Inimigo>();
-            print("acertei Inimigo");
+            print($"acertei inimigo, dano: {dano}");
             StartCoroutine(inimigo.DanoCaractere(dano, 0.0f));
         }
     }

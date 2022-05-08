@@ -187,6 +187,8 @@ MonoBehaviour:
   inventarioPrefab: {fileID: -594750655933847445, guid: 2eb56d62a3b570544b556be5235d03aa, type: 3}
   healthBarPrefab: {fileID: 4834711402307341301, guid: b8e859279da3c2948924766fd1e350ea, type: 3}
   audioColetavel: {fileID: 8870404286706758326}
+  animator: {fileID: 0}
+  espada: {fileID: 7379842272636843866}
   pontosDano: {fileID: 11400000, guid: 689df58cf34c83444911955dff3b82c5, type: 2}
 --- !u!114 &5770663160266213236
 MonoBehaviour:
