@@ -17,6 +17,12 @@ public class RPGGameManager : MonoBehaviour
     // Nome da próxima cena a ser carregada.
     public string nextScene;
 
+    // Nome da cena de fim de jogo.
+    public string gameOverScene;
+
+    // Variável de controle para indicar que o player está em processo de spawn.
+    bool spawning;
+
     /// <summary>
     /// Inicialização do objeto.
     /// </summary>
@@ -30,6 +36,8 @@ public class RPGGameManager : MonoBehaviour
         {
             instanciaCompartilhada = this;
         }
+
+        spawning = true;
     }
 
     /// <summary>
@@ -57,6 +65,7 @@ public class RPGGameManager : MonoBehaviour
         {
             GameObject player = playerPontoSpawn.SpawnO();
             cameraManager.virtualCamera.Follow = player.transform;
+            spawning = false;
         }
     }
 
@@ -65,18 +74,31 @@ public class RPGGameManager : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        CheckEndScene();
+        CheckScene();
     }
 
     /// <summary>
     /// Verifica se a cena está completa, para prosseguir para a próxima cena.
     /// </summary>
-    private void CheckEndScene()
+    private void CheckScene()
     {
+        var player = GameObject.FindWithTag("Player");
+        if (player == null && !spawning)
+        {
+            SceneManager.LoadScene(gameOverScene);
+            return;
+        }
+
         var collectables = GameObject.FindGameObjectsWithTag("Coletavel");
         var enemies = GameObject.FindGameObjectsWithTag("Inimigo");
 
         if (collectables.Length == 0 && enemies.Length == 0 && !string.IsNullOrWhiteSpace(nextScene))
+        {
+            SceneManager.LoadScene(nextScene);
+        }
+
+        // Quando é a última cena, a única condição de vitória é matar o boss.
+        if (SceneManager.GetActiveScene().name == "StageBoss" && enemies.Length == 0)
         {
             SceneManager.LoadScene(nextScene);
         }

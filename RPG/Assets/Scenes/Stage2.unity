@@ -7700,6 +7700,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1829070566}
     - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
+      propertyPath: gameOverScene
+      value: GameOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
       propertyPath: playerPontoSpawn
       value: 
       objectReference: {fileID: 446024334}

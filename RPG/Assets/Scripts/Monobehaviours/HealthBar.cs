@@ -31,7 +31,7 @@ public class HealthBar : MonoBehaviour
         if (caractere != null)
         {
             medidorImagem.fillAmount = pontosDano.valor / maxPontosDano;
-            pdText.text = "PD: " + (medidorImagem.fillAmount * 100);
+            pdText.text = "PD: " + (pontosDano.valor * 10);
         }
 
     }
