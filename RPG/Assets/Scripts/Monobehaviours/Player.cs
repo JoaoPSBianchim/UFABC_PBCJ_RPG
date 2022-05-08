@@ -1,6 +1,10 @@
 using System.Collections;
 using UnityEngine;
 
+/// <summary>
+/// Controla ações gerais do jogador.
+/// </summary>
+[RequireComponent(typeof(Animator))]
 public class Player : Caractere
 {
     // Referencia ao objeto prefab criado do Inventario.
@@ -11,6 +15,13 @@ public class Player : Caractere
 
     // Audio quando coleta-se um coletável.
     public AudioSource audioColetavel;
+
+    // Animator do player.
+    [HideInInspector]
+    public Animator animator;
+
+    // Espada do player (para utilizar no power up).
+    public Espada espada;
 
     // Inventário do jogador.
     Inventario inventario;
@@ -26,6 +37,8 @@ public class Player : Caractere
     /// </summary>
     private void Start()
     {
+        animator = GetComponent<Animator>();
+        animator.SetBool("Super", false);
         inventario = Instantiate(inventarioPrefab);
         pontosDano.valor = inicioPontosDano;
         healthBar = Instantiate(healthBarPrefab);
@@ -110,6 +123,11 @@ public class Player : Caractere
                         deveDesaparecer = AjustePontosDano(objeto.quantidade);
                         break;
 
+                    case Item.TipoItem.POTION:
+                        PowerUp();
+                        deveDesaparecer = inventario.AddItem(objeto);
+                        break;
+
                     default:
                         break;
                 }
@@ -117,11 +135,11 @@ public class Player : Caractere
                 if (deveDesaparecer)
                 {
                     collision.gameObject.SetActive(false);
-                }
 
-                if (audioColetavel != null)
-                {
-                    audioColetavel.Play();
+                    if (audioColetavel != null)
+                    {
+                        audioColetavel.Play();
+                    }
                 }
             }
         }
@@ -143,5 +161,21 @@ public class Player : Caractere
         }
         else return false;
 
+    }
+
+    /// <summary>
+    /// Melhora os atributos do player.
+    /// </summary>
+    public void PowerUp()
+    {
+        animator.SetBool("Super", true);
+        MaxPontoDano *= 2;
+        healthBar.maxPontosDano *= 2;
+        pontosDano.valor = MaxPontoDano;
+
+        if (espada != null)
+        {
+            espada.dano *= 2;
+        }
     }
 }

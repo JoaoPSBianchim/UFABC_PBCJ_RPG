@@ -61,7 +61,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 6e55ca405ce98024ebffd66436dae45d, type: 2}
+    m_Motion: {fileID: 7400000, guid: 274533dde92267c4f9dc6ad82579d030, type: 2}
     m_Threshold: 0
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1
@@ -69,7 +69,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 381bfdac56c845f47815220cadc3e033, type: 2}
+    m_Motion: {fileID: 7400000, guid: 3d1d148b1ec2a8045923d7325cdfc756, type: 2}
     m_Threshold: 0.33333334
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
@@ -77,7 +77,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 233cd0d74dc2ce644a2a0be00c86d032, type: 2}
+    m_Motion: {fileID: 7400000, guid: d8be0760c89ce2540b74faab293ed2b5, type: 2}
     m_Threshold: 0.6666667
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
@@ -85,7 +85,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 8f4691597876d0c4ebafb4a5a607488f, type: 2}
+    m_Motion: {fileID: 7400000, guid: 8cf98d8b7ab884044a83925a35e9f478, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -130,7 +130,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: InimigoO1
+  m_Name: InimigoO2
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Caminhando
@@ -251,7 +251,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5c6f065fd277b23448164bea4e0537e3, type: 2}
+  m_Motion: {fileID: 7400000, guid: 860541e03c722a743a4e97bb0131a79b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

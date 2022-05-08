@@ -139,9 +139,13 @@ PrefabInstance:
       value: InimigoPontoSpawn
       objectReference: {fileID: 0}
     - target: {fileID: 2795075805922234691, guid: d265709452263f74089e4507817d0d68, type: 3}
+      propertyPath: autoSpawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795075805922234691, guid: d265709452263f74089e4507817d0d68, type: 3}
       propertyPath: prefabParaSpawn
       value: 
-      objectReference: {fileID: 7448649443166771047, guid: 17f12202be9f4d348a195e5f24bceebb, type: 3}
+      objectReference: {fileID: 7448649443166771047, guid: b1ac4e6f15c297945b34c6f8772d72d0, type: 3}
     - target: {fileID: 2795075805922234691, guid: d265709452263f74089e4507817d0d68, type: 3}
       propertyPath: intervaloRepeticao
       value: 20
@@ -208,9 +212,13 @@ PrefabInstance:
       value: InimigoPontoSpawn2
       objectReference: {fileID: 0}
     - target: {fileID: 2795075805922234691, guid: d265709452263f74089e4507817d0d68, type: 3}
+      propertyPath: autoSpawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795075805922234691, guid: d265709452263f74089e4507817d0d68, type: 3}
       propertyPath: prefabParaSpawn
       value: 
-      objectReference: {fileID: 7448649443166771047, guid: 17f12202be9f4d348a195e5f24bceebb, type: 3}
+      objectReference: {fileID: 7448649443166771047, guid: b1ac4e6f15c297945b34c6f8772d72d0, type: 3}
     - target: {fileID: 2795075805922234691, guid: d265709452263f74089e4507817d0d68, type: 3}
       propertyPath: intervaloRepeticao
       value: 30
@@ -3812,9 +3820,13 @@ PrefabInstance:
       value: InimigoPontoSpawn3
       objectReference: {fileID: 0}
     - target: {fileID: 2795075805922234691, guid: d265709452263f74089e4507817d0d68, type: 3}
+      propertyPath: autoSpawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795075805922234691, guid: d265709452263f74089e4507817d0d68, type: 3}
       propertyPath: prefabParaSpawn
       value: 
-      objectReference: {fileID: 7448649443166771047, guid: 17f12202be9f4d348a195e5f24bceebb, type: 3}
+      objectReference: {fileID: 7448649443166771047, guid: b1ac4e6f15c297945b34c6f8772d72d0, type: 3}
     - target: {fileID: 2795075805922234691, guid: d265709452263f74089e4507817d0d68, type: 3}
       propertyPath: intervaloRepeticao
       value: 15

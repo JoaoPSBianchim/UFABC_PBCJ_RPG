@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: lenhador-idle
+  m_Name: ogro-idle
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,9 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 7339077026394515563, guid: fcef281591e765b479beb6dbaf8f73d6, type: 3}
+      value: {fileID: -6491798464424196676, guid: 282faca38d4ffb94b819aaabc73c0d9f, type: 3}
     - time: 0.083333336
-      value: {fileID: 8629240953895179830, guid: 0b7d29bc84f060542a7c53fbf071f388, type: 3}
+      value: {fileID: -266329742951251522, guid: 282faca38d4ffb94b819aaabc73c0d9f, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -42,8 +42,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 7339077026394515563, guid: fcef281591e765b479beb6dbaf8f73d6, type: 3}
-    - {fileID: 8629240953895179830, guid: 0b7d29bc84f060542a7c53fbf071f388, type: 3}
+    - {fileID: -6491798464424196676, guid: 282faca38d4ffb94b819aaabc73c0d9f, type: 3}
+    - {fileID: -266329742951251522, guid: 282faca38d4ffb94b819aaabc73c0d9f, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
