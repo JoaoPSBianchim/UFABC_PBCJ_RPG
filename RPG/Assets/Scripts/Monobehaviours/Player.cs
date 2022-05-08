@@ -110,6 +110,12 @@ public class Player : Caractere
                         deveDesaparecer = AjustePontosDano(objeto.quantidade);
                         break;
 
+                    case Item.TipoItem.POTION:
+                        MaxPontoDano = MaxPontoDano * 2;
+                        deveDesaparecer = AjustePontosDano(this.pontosDano.valor);
+                        print(MaxPontoDano.ToString() + pontosDano.valor.ToString() + " ");
+                        break;
+
                     default:
                         break;
                 }
@@ -133,7 +139,7 @@ public class Player : Caractere
     /// </summary>
     /// <param name="quantidade">Vida a ser adicionada.</param>
     /// <returns></returns>
-    public bool AjustePontosDano(int quantidade)
+    public bool AjustePontosDano(float quantidade)
     {
         if (pontosDano.valor < MaxPontoDano)
         {

@@ -20,8 +20,9 @@ public class HealthBar : MonoBehaviour
     {
         if(caractere != null)
         {
+            maxPontosDano = caractere.MaxPontoDano;
             medidorImagem.fillAmount = pontosDano.valor / maxPontosDano;
-            pdText.text = "PD: " + (medidorImagem.fillAmount * 100);
+            pdText.text = "PD: " + (medidorImagem.fillAmount * 100 * (maxPontosDano/10));
         }
         
     }
