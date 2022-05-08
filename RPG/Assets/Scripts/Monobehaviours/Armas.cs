@@ -1,32 +1,40 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 
+/// <summary>
+/// Controla as ações que envolvem o armamento do player.
+/// </summary>
 [RequireComponent(typeof(Animator))]
 public class Armas : MonoBehaviour
 {
-    // Armazena o Prefab da Municao
+    // Armazena o Prefab da Municao.
     public GameObject municaoPrefab;
 
-    // Armazena o prefab da espada
+    // Armazena o prefab da espada.
     public GameObject espadaPrefab;
 
-    // Piscina de municao
+    // Piscina de municao.
     static List<GameObject> municaoPiscina;
 
-    // Tamanho da Piscina
+    // Tamanho da Piscina.
     public int tamanhoPiscina;
 
-    // Velocidade da municao
+    // Velocidade da municao.
     public float velocidadeArma;
 
-    // Velocidade da espada, em graus/s
+    // Velocidade da espada.
     public float velocidadeEspada;
 
-    // Armazena e reutiliza uma espada
+    // Audios da espada.
+    public AudioClip[] audiosEspada;
+
+
+    // Armazena e reutiliza a espada.
     GameObject espada;
 
-    // Armazena a rotacao inicial da espada
+    // Armazena a rotacao inicial da espada.
     Vector3 espadaAngulos;
 
     bool atirando;
@@ -131,6 +139,14 @@ public class Armas : MonoBehaviour
             animator.SetBool("Atirando", true);
             animator.SetFloat("AtiraX", vetorQuadrante.x);
             animator.SetFloat("AtiraY", vetorQuadrante.y);
+
+            var audioSource = gameObject.GetComponent<AudioSource>();
+            if (audioSource != null && audiosEspada.Length > 0)
+            {
+                audioSource.clip = audiosEspada[Random.Range(0, audiosEspada.Length)];
+                audioSource.Play();
+            }
+
             atirando = false;
         }
         else
