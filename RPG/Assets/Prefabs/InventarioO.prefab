@@ -176,3 +176,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slotPrefab: {fileID: 8429216890878310196, guid: 7ca615eeafa5c46478e32bb936cd50ce, type: 3}
+  inventory: {fileID: 11400000, guid: c8deb218460fa054d80c0db92ccba041, type: 2}

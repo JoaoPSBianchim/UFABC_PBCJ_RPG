@@ -20,6 +20,12 @@ public class RPGGameManager : MonoBehaviour
     // Nome da cena de fim de jogo.
     public string gameOverScene;
 
+    // Variável de controle para limpar o inventário.
+    public bool clearInventory;
+
+    // Dados do inventário.
+    public Inventory inventory;
+
     // Variável de controle para indicar que o player está em processo de spawn.
     bool spawning;
 
@@ -53,6 +59,11 @@ public class RPGGameManager : MonoBehaviour
     /// </summary>
     public void SetupScene()
     {
+        if (clearInventory && inventory != null)
+        {
+            inventory.Clear();
+        }
+
         SpawnPlayer();
     }
 

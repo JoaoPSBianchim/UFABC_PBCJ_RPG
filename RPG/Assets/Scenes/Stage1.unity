@@ -7947,6 +7947,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 11400000, guid: c8deb218460fa054d80c0db92ccba041, type: 2}
+    - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
       propertyPath: nextScene
       value: Stage2
       objectReference: {fileID: 0}
@@ -7957,6 +7961,10 @@ PrefabInstance:
     - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
       propertyPath: gameOverScene
       value: GameOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
+      propertyPath: clearInventory
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
       propertyPath: playerPontoSpawn

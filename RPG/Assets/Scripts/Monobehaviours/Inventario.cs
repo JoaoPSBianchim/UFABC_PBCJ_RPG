@@ -5,8 +5,8 @@ public class Inventario : MonoBehaviour
 {
     public GameObject slotPrefab;                   // Objeto que recebe o prefab Slot
     public const int numSlots = 5;                  // Numero Fixo de Slots
+    public Inventory inventory;                     // Dados de inventário armazenados.
     Image[] itemImagens = new Image[numSlots];      // Array de Imagens
-    Item[] items = new Item[numSlots];              // Array de Itens
     GameObject[] slots = new GameObject[numSlots];  // Array de Slots
 
     // Start is called before the first frame update
@@ -30,46 +30,49 @@ public class Inventario : MonoBehaviour
                 slots[i] = novoSlot;
                 itemImagens[i] = novoSlot.transform.GetChild(1).GetComponent<Image>();
             }
+            UpdateSlots();
         }
     }
 
     /// <summary>
     /// Adiciona um item ao inventário.
     /// </summary>
-    /// <param name="itemToAdd">item a ser adicionado</param>
+    /// <param name="item">item a ser adicionado</param>
     /// <returns></returns>
-    public bool AddItem(Item itemToAdd)
+    public bool AddItem(Item item)
     {
-        for (int i = 0; i < items.Length; i++)
+        inventory.AddItem(item);
+        UpdateSlots();
+        return true;
+    }
+
+    public void UpdateSlots()
+    {
+        var items = inventory.GetItems();
+        for (var i = 0; i < items.Count; i++)
         {
-            if (items[i] != null && items[i].tipoItem == itemToAdd.tipoItem && itemToAdd.empilhavel == true)
+            var item = items[i];
+
+            if (item.empilhavel)
             {
-                items[i].quantidade = items[i].quantidade + 1;
-                UpdateSlotText(i);
-                return true;
+                UpdateSlotText(i, item);
             }
-            if (items[i] == null)
-            {
-                items[i] = Instantiate(itemToAdd);
-                items[i].quantidade = 1;
-                itemImagens[i].sprite = itemToAdd.sprite;
-                itemImagens[i].enabled = true;
-                UpdateSlotText(i);
-                return true;
-            }
+
+            itemImagens[i].sprite = item.sprite;
+            itemImagens[i].enabled = true;
         }
-        return false;
     }
 
     /// <summary>
     /// Atualiza a contagem dos items de um slot do inventário.
     /// </summary>
-    /// <param name="i">Índice do slot</param>
-    public void UpdateSlotText(int i)
+    /// <param name="i">Índice do slot.</param>
+    /// <param name="item">Item a ser atualizado.</param>
+    public void UpdateSlotText(int i, Item item)
     {
         var slotScript = slots[i].gameObject.GetComponent<Slot>();
         var quantidadeTexto = slotScript.qtdTexto;
         quantidadeTexto.enabled = true;
-        quantidadeTexto.text = items[i].quantidade.ToString();
+        quantidadeTexto.text = item.quantidade.ToString();
     }
 }
