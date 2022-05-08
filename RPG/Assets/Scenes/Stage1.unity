@@ -7955,6 +7955,10 @@ PrefabInstance:
       value: Stage2
       objectReference: {fileID: 0}
     - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
+      propertyPath: pontosDano
+      value: 
+      objectReference: {fileID: 11400000, guid: 689df58cf34c83444911955dff3b82c5, type: 2}
+    - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
       propertyPath: cameraManager
       value: 
       objectReference: {fileID: 1829070566}
@@ -7964,6 +7968,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
       propertyPath: clearInventory
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}
+      propertyPath: resetPontosDano
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1038127805038026799, guid: e6f4fced862915b43a9839ed098dbb30, type: 3}

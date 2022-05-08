@@ -26,6 +26,12 @@ public class RPGGameManager : MonoBehaviour
     // Dados do inventário.
     public Inventory inventory;
 
+    // Variável de controle para resettar a vida.
+    public bool resetPontosDano;
+
+    // Dado da vida.
+    public PontosDano pontosDano;
+
     // Variável de controle para indicar que o player está em processo de spawn.
     bool spawning;
 
@@ -62,6 +68,10 @@ public class RPGGameManager : MonoBehaviour
         if (clearInventory && inventory != null)
         {
             inventory.Clear();
+        }
+        if (resetPontosDano && pontosDano != null)
+        {
+            pontosDano.valor = 0f;
         }
 
         SpawnPlayer();

@@ -40,9 +40,13 @@ public class Player : Caractere
         animator = GetComponent<Animator>();
         animator.SetBool("Super", false);
         inventario = Instantiate(inventarioPrefab);
-        pontosDano.valor = inicioPontosDano;
         healthBar = Instantiate(healthBarPrefab);
         healthBar.caractere = this;
+
+        if (pontosDano.valor == 0f)
+        {
+            pontosDano.valor = inicioPontosDano;
+        }
     }
 
     /// <summary>
