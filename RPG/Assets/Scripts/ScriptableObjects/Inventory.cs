@@ -11,21 +11,35 @@ public class Inventory : ScriptableObject
     // Guarda a lista de items no inventário entre cenas.
     List<Item> items;
 
+    /// <summary>
+    /// Inicializa a listagem de items.
+    /// </summary>
     private void Awake()
     {
         items = new List<Item>();
     }
 
+    /// <summary>
+    /// Obtém os items armazenados no inventário.
+    /// </summary>
+    /// <returns>Items do inventário.</returns>
     public List<Item> GetItems()
     {
         return items;
     }
 
+    /// <summary>
+    /// Limpa os items do inventário.
+    /// </summary>
     public void Clear()
     {
         items = new List<Item>();
     }
 
+    /// <summary>
+    /// Adiciona um item ao inventário.
+    /// </summary>
+    /// <param name="i">Item a ser adicionado.</param>
     public void AddItem(Item i)
     {
         var item = items.Where(e => e.tipoItem == i.tipoItem).FirstOrDefault();

@@ -193,10 +193,6 @@ public class Armas : MonoBehaviour
             atirando = true;
             //DisparaMunicao();
         }
-        if (Input.GetMouseButtonDown(1))
-        {
-            print("faca");
-        }
         UpdateEstado();
     }
 

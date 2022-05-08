@@ -1,7 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Gerencia a espada do jogador.
+/// </summary>
 public class Espada : MonoBehaviour
 {
     // Poder da espada

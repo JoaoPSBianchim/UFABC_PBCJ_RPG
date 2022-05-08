@@ -3,14 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-//Abstract Significa que a classe n�o pode ser instanciada, s� herdada
+
+/// <summary>
+/// Define propriedades comuns de um character do jogo.
+/// Abstract significa que a classe não pode ser instanciada, só herdada.
+/// </summary>
 public abstract class Caractere : MonoBehaviour
 {
-    public float inicioPontosDano;  // valor minimo inicial de saude do Player
-    public float MaxPontoDano;      // valor maximo permitido de saude do Player
+    // Valor minimo inicial de saude do Player
+    public float inicioPontosDano;
 
+    // Valor maximo permitido de saude do Player
+    public float MaxPontoDano;
+
+    /// <summary>
+    /// Função abstrata para redefinir os atributos do character.
+    /// </summary>
     public abstract void ResetCaractere();
 
+    /// <summary>
+    /// Animação para quando recebe um golpe.
+    /// </summary>
+    /// <returns></returns>
     public virtual IEnumerator FlickerCaractere()
     {
         GetComponent<SpriteRenderer>().color = Color.red;
@@ -19,8 +33,17 @@ public abstract class Caractere : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Trata o dano recebido por golpes externos.
+    /// </summary>
+    /// <param name="dano">Dano recebido.</param>
+    /// <param name="intervalo">Intervalor entre os danos recebidos.</param>
+    /// <returns></returns>
     public abstract IEnumerator DanoCaractere(int dano, float intervalo);
 
+    /// <summary>
+    /// Destrói o character.
+    /// </summary>
     public virtual void KillCaractere()
     {
         Destroy(gameObject);

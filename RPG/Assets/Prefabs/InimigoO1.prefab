@@ -168,7 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inicioPontosDano: 2
   MaxPontoDano: 2
-  forcaDano: 2
+  forcaDano: 1
 --- !u!58 &7647281001902449729
 CircleCollider2D:
   m_ObjectHideFlags: 0

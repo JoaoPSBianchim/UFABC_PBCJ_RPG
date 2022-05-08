@@ -1,17 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+/// <summary>
+/// Gerencia o NPC fada.
+/// </summary>
 public class Fada : MonoBehaviour
 {
+    // BalÃ£o de fala.
     public GameObject balaoFala;
+
+    // Texto a ser exibido.
     public GameObject texto;
 
+    // Biblioteca para lidar melhor com texto.
     private TextMeshPro textMeshPro;
+
+    // Collider da fada.
     private CircleCollider2D circleCollider2D;
+
+    // Dica sendo exibida atualmente.
     private int numeroDica;
+
     private int contador;
+
+    /// <summary>
+    /// InicializaÃ§Ã£o do script.
+    /// </summary>
     private void Awake()
     {
         circleCollider2D = GameObject.Find("Fada").GetComponent<CircleCollider2D>();
@@ -23,25 +37,32 @@ public class Fada : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Configura o texto a ser exibido.
+    /// </summary>
+    /// <param name="text"></param>
     private void SetupText(string text)
     {
         textMeshPro.SetText(text);
         textMeshPro.ForceMeshUpdate();
     }
 
+    /// <summary>
+    /// Controlador de dica da fada.
+    /// </summary>
     private void EstagioConversa() // NAO Esta Funcionando
     {
         if (numeroDica == 1)
         {
-            SetupText("Para completar o seu pote de ouro\nvocê precisará enfrentar o BOSS!\n(Aperte E para próxima Dica)");
+            SetupText("Para completar o seu pote de ouro\nvocï¿½ precisarï¿½ enfrentar o BOSS!\n(Aperte E para prï¿½xima Dica)");
         }
         else if (numeroDica == 2)
         {
-            SetupText("Cuidado! Você precisa estar\nbem forte para enfrentá-lo!\n(Aperte E para próxima Dica)");
+            SetupText("Cuidado! Vocï¿½ precisa estar\nbem forte para enfrentï¿½-lo!\n(Aperte E para prï¿½xima Dica)");
         }
         else
         {
-            SetupText("Ache a poção mágica\n antes que ele te ache.\nVocê ganhará super poderes!");
+            SetupText("Ache a poï¿½ï¿½o mï¿½gica\n antes que ele te ache.\nVocï¿½ ganharï¿½ super poderes!");
         }
 
         numeroDica++;
@@ -52,16 +73,24 @@ public class Fada : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Trata da colisÃ£o entre a fada e o jogador.
+    /// </summary>
+    /// <param name="collision">Objeto colidido.</param>
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
             balaoFala.SetActive(true);
             texto.SetActive(true);
-            SetupText("Para completar o seu pote de ouro\nvocê precisará enfrentar o BOSS!\nAche a poção mágica para enfrentá-lo!");
+            SetupText("Para completar o seu pote de ouro\nvocï¿½ precisarï¿½ enfrentar o BOSS!\nAche a poï¿½ï¿½o mï¿½gica para enfrentï¿½-lo!");
         }
     }
 
+    /// <summary>
+    /// Trata do fim da colisÃ£o entre a fada e o jogador.
+    /// </summary>
+    /// <param name="collision">Objeto colidido.</param>
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag == "Player")
@@ -69,17 +98,5 @@ public class Fada : MonoBehaviour
             balaoFala.SetActive(false);
             texto.SetActive(false);
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

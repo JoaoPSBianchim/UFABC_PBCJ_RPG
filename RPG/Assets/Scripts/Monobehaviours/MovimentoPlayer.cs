@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Gerencia o movimento do jogador.
+/// </summary>
 public class MovimentoPlayer : MonoBehaviour
 {
     public float velocidadeMovimento = 3.0f;    //Equivale ao momento(impulso) a ser dado ao Player
@@ -24,12 +27,17 @@ public class MovimentoPlayer : MonoBehaviour
         UpdateEstado();
     }
 
-
+    /// <summary>
+    /// Atualização fixa.
+    /// </summary>
     private void FixedUpdate()
     {
         MoveCaractere();
     }
 
+    /// <summary>
+    /// Movimenta o caractere com base no input do teclado.
+    /// </summary>
     private void MoveCaractere()
     {
         Movimento.x = Input.GetAxisRaw("Horizontal");
@@ -38,6 +46,9 @@ public class MovimentoPlayer : MonoBehaviour
         rb2D.velocity = Movimento * velocidadeMovimento;
     }
 
+    /// <summary>
+    /// Atualiza o estado de animação com base nos dados de movimentação.
+    /// </summary>
     void UpdateEstado()
     {
         if (Mathf.Approximately(Movimento.x, 0) && (Mathf.Approximately(Movimento.y, 0)))

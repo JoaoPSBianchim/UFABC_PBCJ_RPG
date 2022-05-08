@@ -46,6 +46,9 @@ public class Inventario : MonoBehaviour
         return true;
     }
 
+    /// <summary>
+    /// Atualiza as informações dos slots.
+    /// </summary>
     public void UpdateSlots()
     {
         var items = inventory.GetItems();

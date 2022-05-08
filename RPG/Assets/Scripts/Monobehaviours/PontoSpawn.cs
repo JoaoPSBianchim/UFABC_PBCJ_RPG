@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Define um ponto de spawn de um prefab.
+/// </summary>
 public class PontoSpawn : MonoBehaviour
 {
     // Prefab para ser realizado o spawn.
