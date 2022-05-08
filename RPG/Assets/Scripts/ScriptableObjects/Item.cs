@@ -1,13 +1,24 @@
 using UnityEngine;
 
+/// <summary>
+/// Dados para um item coletável pelo jogador.
+/// </summary>
 [CreateAssetMenu(menuName = "Item")]
 public class Item : ScriptableObject
 {
-    public string NomeObjeto;
+    // Nome para o item.
+    public string nomeObjeto;
+
+    // Sprite para o item.
     public Sprite sprite;
+
+    // Quantidade do item.
     public int quantidade;
+
+    // Indica se é um item empilhável ou não.
     public bool empilhavel;
 
+    // Tipos de items possíveis.
     public enum TipoItem
     {
         MOEDA,
@@ -16,6 +27,7 @@ public class Item : ScriptableObject
         ESCUDO
     }
 
+    // Tipo do item.
     public TipoItem tipoItem;
 
 }

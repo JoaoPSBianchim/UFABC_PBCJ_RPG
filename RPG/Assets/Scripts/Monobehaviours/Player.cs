@@ -1,16 +1,29 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : Caractere
 {
-    public Inventario inventarioPrefab;     //Referencia ao objeto prefab criado do Inventario
+    // Referencia ao objeto prefab criado do Inventario.
+    public Inventario inventarioPrefab;
+
+    // Referencia ao Objeto prefab criado da HealthBar.
+    public HealthBar healthBarPrefab;
+
+    // Audio quando coleta-se um coletável.
+    public AudioSource audioColetavel;
+
+    // Inventário do jogador.
     Inventario inventario;
-    public HealthBar healthBarPrefab;       //Referencia ao Objeto prefab criado da HealthBar
+
+    // Barra de vida do jogador.
     HealthBar healthBar;
 
-    public PontosDano pontosDano;   //tem o valor da saude do objeto script
+    // Tem o valor da saude do objeto script.
+    public PontosDano pontosDano;
 
+    /// <summary>
+    /// Chamado antes da atualização do primeiro frame.
+    /// </summary>
     private void Start()
     {
         inventario = Instantiate(inventarioPrefab);
@@ -19,13 +32,19 @@ public class Player : Caractere
         healthBar.caractere = this;
     }
 
+    /// <summary>
+    /// Coroutine para atualizar o dano sofrido pelo player.
+    /// </summary>
+    /// <param name="dano">Dano sofrido.</param>
+    /// <param name="intervalo">Intervalo entre os danos sofridos.</param>
+    /// <returns></returns>
     public override IEnumerator DanoCaractere(int dano, float intervalo)
     {
         while (true)
         {
             StartCoroutine(FlickerCaractere());
             pontosDano.valor = pontosDano.valor - dano;
-            if(pontosDano.valor <= float.Epsilon)
+            if (pontosDano.valor <= float.Epsilon)
             {
                 KillCaractere();
             }
@@ -40,6 +59,9 @@ public class Player : Caractere
         }
     }
 
+    /// <summary>
+    /// Reinicia os dados do player.
+    /// </summary>
     public override void ResetCaractere()
     {
         inventario = Instantiate(inventarioPrefab);
@@ -48,6 +70,9 @@ public class Player : Caractere
         pontosDano.valor = inicioPontosDano;
     }
 
+    /// <summary>
+    /// Destrói o player, e.g. quando o personagem morre (PD = 0).
+    /// </summary>
     public override void KillCaractere()
     {
         base.KillCaractere();
@@ -55,33 +80,33 @@ public class Player : Caractere
         Destroy(inventario.gameObject);
     }
 
-
-
+    /// <summary>
+    /// Trigger para quando ocorre uma colisão.
+    /// </summary>
+    /// <param name="collision">Objeto colidido.</param>
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Coletavel"))
         {
-            Item DanoObjeto = collision.gameObject.GetComponent<Consumable>().item;
-            print(DanoObjeto.tipoItem);
-            if(DanoObjeto != null)
+            var consumable = collision.gameObject.GetComponent<Consumable>();
+            var objeto = consumable.item;
+            print(objeto.tipoItem);
+
+            if (objeto != null)
             {
-                bool deveDesaparecer = false;
-                switch (DanoObjeto.tipoItem)
+                var deveDesaparecer = false;
+
+                // Trata a colisão de colectáveis de forma diferente, dependendo do coletável.
+                switch (objeto.tipoItem)
                 {
                     case Item.TipoItem.MOEDA:
-                        deveDesaparecer = inventario.AddItem(DanoObjeto);
+                    case Item.TipoItem.DIAMANTE:
+                    case Item.TipoItem.ESCUDO:
+                        deveDesaparecer = inventario.AddItem(objeto);
                         break;
 
                     case Item.TipoItem.HEALTH:
-                        deveDesaparecer = AjustePontosDano(DanoObjeto.quantidade);
-                        break;
-
-                    case Item.TipoItem.DIAMANTE:
-                        deveDesaparecer = inventario.AddItem(DanoObjeto);
-                        break;
-
-                    case Item.TipoItem.ESCUDO:
-                        deveDesaparecer = inventario.AddItem(DanoObjeto);
+                        deveDesaparecer = AjustePontosDano(objeto.quantidade);
                         break;
 
                     default:
@@ -92,11 +117,21 @@ public class Player : Caractere
                 {
                     collision.gameObject.SetActive(false);
                 }
+
+                if (audioColetavel != null)
+                {
+                    audioColetavel.Play();
+                }
             }
         }
 
     }
 
+    /// <summary>
+    /// Altera a vida do player.
+    /// </summary>
+    /// <param name="quantidade">Vida a ser adicionada.</param>
+    /// <returns></returns>
     public bool AjustePontosDano(int quantidade)
     {
         if (pontosDano.valor < MaxPontoDano)
@@ -106,6 +141,6 @@ public class Player : Caractere
             return true;
         }
         else return false;
-        
+
     }
 }

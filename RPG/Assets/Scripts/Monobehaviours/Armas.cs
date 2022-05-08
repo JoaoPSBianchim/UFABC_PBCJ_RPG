@@ -1,7 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 
 /// <summary>
 /// Controla as ações que envolvem o armamento do player.
@@ -12,9 +10,6 @@ public class Armas : MonoBehaviour
     // Armazena o Prefab da Municao.
     public GameObject municaoPrefab;
 
-    // Armazena o prefab da espada.
-    public GameObject espadaPrefab;
-
     // Piscina de municao.
     static List<GameObject> municaoPiscina;
 
@@ -24,30 +19,26 @@ public class Armas : MonoBehaviour
     // Velocidade da municao.
     public float velocidadeArma;
 
-    // Velocidade da espada.
-    public float velocidadeEspada;
-
     // Audios da espada.
     public AudioClip[] audiosEspada;
 
-
-    // Armazena e reutiliza a espada.
-    GameObject espada;
-
-    // Armazena a rotacao inicial da espada.
-    Vector3 espadaAngulos;
-
+    // Variável de controle se está atirando ou não.
     bool atirando;
 
-
+    // Animator para o sprite do jogador.
     [HideInInspector]
     public Animator animator;
 
+    // Câmera para obter referências de slopes.
     Camera cameraLocal;
 
+    // Slope positivo (para cálculo de quadrantes em relação ao player).
     float slopePositivo;
+
+    // Slope negativo (para cálculo de quadrantes em relação ao player).
     float slopeNegativo;
 
+    // Quadrante em relação ao player.
     enum Quadrante
     {
         Leste,
@@ -56,11 +47,16 @@ public class Armas : MonoBehaviour
         Norte
     }
 
+    /// <summary>
+    /// Chamado antes da atualização do primeiro frame.
+    /// </summary>
     private void Start()
     {
         animator = GetComponent<Animator>();
         atirando = false;
+
         cameraLocal = Camera.main;
+
         Vector2 abaixoEsquerda = cameraLocal.ScreenToWorldPoint(new Vector2(0, 0));
         Vector2 acimaDireita = cameraLocal.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height));
         Vector2 acimaEsquerda = cameraLocal.ScreenToWorldPoint(new Vector2(0, Screen.height));
@@ -70,6 +66,11 @@ public class Armas : MonoBehaviour
         slopeNegativo = PegaSlope(acimaEsquerda, abaixoDireita);
     }
 
+    /// <summary>
+    /// Checa se o ponto está acima do slope positivo. 
+    /// </summary>
+    /// <param name="posicaoEntrada">Ponto para verificar.</param>
+    /// <returns><see langword="true"/> se estiver acima do slope; <see langword="false"/> caso contrário.</returns>
     bool AcimaSlopePositivo(Vector2 posicaoEntrada)
     {
         Vector2 posicaoPlayer = gameObject.transform.position;
@@ -79,6 +80,11 @@ public class Armas : MonoBehaviour
         return entradaInterseccao > interseccaoY;
     }
 
+    /// <summary>
+    /// Checa se o ponto está acima do slope negativo. 
+    /// </summary>
+    /// <param name="posicaoEntrada">Ponto para verificar.</param>
+    /// <returns><see langword="true"/> se estiver acima do slope; <see langword="false"/> caso contrário.</returns>
     bool AcimaSlopeNegativo(Vector2 posicaoEntrada)
     {
         Vector2 posicaoPlayer = gameObject.transform.position;
@@ -88,6 +94,10 @@ public class Armas : MonoBehaviour
         return entradaInterseccao > interseccaoY;
     }
 
+    /// <summary>
+    /// Obtém quadrante do local de click do mouse com relação ao jogador.
+    /// </summary>
+    /// <returns>Quadrante clicado.</returns>
     Quadrante PegaQuadrante()
     {
         Vector2 posicaoMouse = Input.mousePosition;
@@ -112,6 +122,9 @@ public class Armas : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Atualiza o estado do jogador.
+    /// </summary>
     void UpdateEstado()
     {
         if (atirando)
@@ -156,6 +169,9 @@ public class Armas : MonoBehaviour
     }
 
 
+    /// <summary>
+    /// Inicialização do script.
+    /// </summary>
     private void Awake()
     {
         municaoPiscina ??= new List<GameObject>();
@@ -165,12 +181,11 @@ public class Armas : MonoBehaviour
             municaoO.SetActive(false);
             municaoPiscina.Add(municaoO);
         }
-
-        espada = Instantiate(espadaPrefab);
-        espadaAngulos = espada.transform.eulerAngles;
-        espada.SetActive(false);
     }
 
+    /// <summary>
+    /// Atualização a cada frame.
+    /// </summary>
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -180,19 +195,30 @@ public class Armas : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(1))
         {
-            print("Apertei melee");
-            //AtacaMelee();
+            print("faca");
         }
         UpdateEstado();
     }
 
+    /// <summary>
+    /// Obtém uma reta dados dois pontos.
+    /// </summary>
+    /// <param name="ponto1">Primeiro ponto.</param>
+    /// <param name="ponto2">Segundo ponto.</param>
+    /// <returns>A inclinação da reta que passa pelos dois pontos.</returns>
     float PegaSlope(Vector2 ponto1, Vector2 ponto2)
     {
         return (ponto2.y - ponto1.y) / (ponto2.x - ponto1.x);
     }
 
+    /// <summary>
+    /// Realiza spawn de uma munição.
+    /// </summary>
+    /// <param name="posicao">Posição inicial da munição.</param>
+    /// <returns>Munição criada.</returns>
     public GameObject SpawnMunicao(Vector3 posicao)
     {
+        // Utiliza Object Pooling para controlar as instâncias de munições.
         foreach (GameObject municao in municaoPiscina)
         {
             if (municao.activeSelf == false)
@@ -205,14 +231,9 @@ public class Armas : MonoBehaviour
         return null;
     }
 
-    public GameObject SpawnEspada(Vector3 posicao)
-    {
-        espada.SetActive(true);
-        espada.transform.position = posicao;
-        espada.transform.eulerAngles = espadaAngulos;
-        return espada;
-    }
-
+    /// <summary>
+    /// Realiza o tiro de uma munição.
+    /// </summary>
     void DisparaMunicao()
     {
         Vector3 posicaoMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -225,34 +246,9 @@ public class Armas : MonoBehaviour
         }
     }
 
-    void AtacaMelee()
-    {
-        var posicaoMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        var espada = SpawnEspada(transform.position);
-
-        var angulo = 0.0f;
-        var deslocamento = new Vector3();
-        var quadrante = PegaQuadrante();
-
-        if (espada != null)
-        {
-            var script = espada.GetComponent<Swing>();
-            var duracao = 1.0f / velocidadeEspada;
-
-            var altura = espada.GetComponent<SpriteRenderer>().bounds.size.x;
-            var largura = espada.GetComponent<SpriteRenderer>().bounds.size.y;
-            switch (quadrante)
-            {
-                case Quadrante.Leste: angulo = 0.0f; deslocamento.x += largura / 2; break;
-                case Quadrante.Norte: angulo = 90.0f; deslocamento.y += altura / 2; break;
-                case Quadrante.Oeste: angulo = 180.0f; deslocamento.x -= largura / 2; break;
-                case Quadrante.Sul: angulo = 270.0f; deslocamento.y -= altura / 2; break;
-            }
-
-            StartCoroutine(script.swing(deslocamento, angulo, duracao, gameObject));
-        }
-    }
-
+    /// <summary>
+    /// Destrói recursos em uso.
+    /// </summary>
     private void OnDestroy()
     {
         municaoPiscina = null;
