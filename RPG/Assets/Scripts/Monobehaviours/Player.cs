@@ -21,7 +21,7 @@ public class Player : Caractere
     public Animator animator;
 
     // Espada do player (para utilizar no power up).
-    public Espada espada;
+    public Weapon espada;
 
     // Inventário do jogador.
     Inventario inventario;
@@ -55,7 +55,7 @@ public class Player : Caractere
     /// <param name="dano">Dano sofrido.</param>
     /// <param name="intervalo">Intervalo entre os danos sofridos.</param>
     /// <returns></returns>
-    public override IEnumerator DanoCaractere(int dano, float intervalo)
+    public override IEnumerator DanoCaractere(float dano, float intervalo)
     {
         while (true)
         {

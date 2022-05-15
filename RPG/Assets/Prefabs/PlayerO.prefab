@@ -390,6 +390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dano: 1
+  tagAlvo: Inimigo
 --- !u!1 &7339603977124385890
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,8 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
-
 
 /// <summary>
 /// Define propriedades comuns de um character do jogo.
@@ -16,15 +13,14 @@ public abstract class Caractere : MonoBehaviour
     // Valor maximo permitido de saude do Player
     public float MaxPontoDano;
 
-    /// <summary>
-    /// Função abstrata para redefinir os atributos do character.
-    /// </summary>
+    /**
+     * Função abstrata para redefinir os atributos do character.
+     */
     public abstract void ResetCaractere();
 
-    /// <summary>
-    /// Animação para quando recebe um golpe.
-    /// </summary>
-    /// <returns></returns>
+    /**
+     * Animação para quando recebe um golpe.
+     */
     public virtual IEnumerator FlickerCaractere()
     {
         GetComponent<SpriteRenderer>().color = Color.red;
@@ -33,17 +29,16 @@ public abstract class Caractere : MonoBehaviour
 
     }
 
-    /// <summary>
-    /// Trata o dano recebido por golpes externos.
-    /// </summary>
-    /// <param name="dano">Dano recebido.</param>
-    /// <param name="intervalo">Intervalor entre os danos recebidos.</param>
-    /// <returns></returns>
-    public abstract IEnumerator DanoCaractere(int dano, float intervalo);
+    /**
+     * Trata o dano recebido por golpes externos.
+     * dano é o dano recebido.
+     * intevalo é o intervalo entre os danos recebidos.
+     */
+    public abstract IEnumerator DanoCaractere(float dano, float intervalo);
 
-    /// <summary>
-    /// Destrói o character.
-    /// </summary>
+    /**
+     * Destrói o character.
+     */
     public virtual void KillCaractere()
     {
         Destroy(gameObject);

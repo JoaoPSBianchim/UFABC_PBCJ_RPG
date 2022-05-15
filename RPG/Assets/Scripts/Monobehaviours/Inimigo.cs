@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -7,24 +6,27 @@ using UnityEngine;
 /// </summary>
 public class Inimigo : Caractere
 {
-    float pontosVida;               // Saude do inimigo
-    public int forcaDano;           // Poder de dano
+    // Saude do inimigo
+    float pontosVida;
+
+    // Poder de dano
+    public float forcaDano;
 
     // Coroutine de dano.
     Coroutine danoCoroutine;
 
-    /// <summary>
-    /// Função ao ser habilitado.
-    /// </summary>
+    /**
+     * Função ao behaviour ser habilitado.
+     */
     private void OnEnable()
     {
         ResetCaractere();
     }
 
-    /// <summary>
-    /// Trata da colisão entre o inimigo e o jogador.
-    /// </summary>
-    /// <param name="collision">Objeto colidido.</param>
+    /**
+     * Trata da colisão entre o inimigo e o jogador.
+     * collision é o objeto colidido.
+     */
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -37,10 +39,10 @@ public class Inimigo : Caractere
         }
     }
 
-    /// <summary>
-    /// Trata do fim da colisão entre o inimigo e o jogador.
-    /// </summary>
-    /// <param name="collision">Objeto colidido.</param>
+    /**
+     * Trata do fim da colisão entre o inimigo e o jogador.
+     * collision é o objeto colidido.
+     */
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -53,13 +55,12 @@ public class Inimigo : Caractere
         }
     }
 
-    /// <summary>
-    /// Coroutine para tratar danos recebidos.
-    /// </summary>
-    /// <param name="dano">Dano recebido.</param>
-    /// <param name="intervalo">Intervalo entre os danos.</param>
-    /// <returns></returns>
-    public override IEnumerator DanoCaractere(int dano, float intervalo)
+    /**
+     * Coroutine para tratar danos recebidos.
+     * dano é o dano recebido.
+     * intervalo é o intervalo para esperar entre cada dano.
+     */
+    public override IEnumerator DanoCaractere(float dano, float intervalo)
     {
         while (true)
         {
@@ -81,9 +82,9 @@ public class Inimigo : Caractere
         }
     }
 
-    /// <summary>
-    /// Redefine os atributos do inimigo.
-    /// </summary>
+    /**
+     * Redefine os atributos do inimigo.
+     */
     public override void ResetCaractere()
     {
         pontosVida = inicioPontosDano;
