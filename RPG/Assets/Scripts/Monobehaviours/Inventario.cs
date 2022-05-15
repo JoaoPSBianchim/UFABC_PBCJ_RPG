@@ -8,10 +8,11 @@ public class Inventario : MonoBehaviour
     public Inventory inventory;                     // Dados de inventário armazenados.
     Image[] itemImagens = new Image[numSlots];      // Array de Imagens
     GameObject[] slots = new GameObject[numSlots];  // Array de Slots
-
+    
     // Start is called before the first frame update
     void Start()
     {
+        
         CriaSlots();
     }
 
@@ -43,7 +44,14 @@ public class Inventario : MonoBehaviour
     {
         inventory.AddItem(item);
         UpdateSlots();
+        if(item.tipoItem.ToString() == "KNIFE"){
+            inventory.quantidadeEspadas += 10;
+                
+       }
         return true;
+
+       
+       
     }
 
     /// <summary>

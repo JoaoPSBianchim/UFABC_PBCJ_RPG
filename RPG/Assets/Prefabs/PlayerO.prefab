@@ -203,6 +203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   municaoPrefab: {fileID: 5665907242197474428, guid: 9397a4cdaae627b46bd48d0f51240cba, type: 3}
+  inventory: {fileID: 11400000, guid: c8deb218460fa054d80c0db92ccba041, type: 2}
+  quantidadeEspadas: 0
   tamanhoPiscina: 7
   velocidadeArma: 2
   audiosEspada:

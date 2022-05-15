@@ -10,6 +10,9 @@ public class Armas : MonoBehaviour
     // Armazena o Prefab da Municao.
     public GameObject municaoPrefab;
 
+    // Dados do inventario
+    public Inventory inventory;
+
     // Piscina de municao.
     static List<GameObject> municaoPiscina;
 
@@ -52,6 +55,7 @@ public class Armas : MonoBehaviour
     /// </summary>
     private void Start()
     {
+        
         animator = GetComponent<Animator>();
         atirando = false;
 
@@ -188,10 +192,23 @@ public class Armas : MonoBehaviour
     /// </summary>
     private void Update()
     {
+
+        
+
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            if(inventory.quantidadeEspadas > 0){
+                DisparaMunicao();
+                inventory.quantidadeEspadas -= 1;
+               
+            }
+            
+        }
         if (Input.GetMouseButtonDown(0))
         {
             atirando = true;
-            //DisparaMunicao();
+            
         }
         UpdateEstado();
     }

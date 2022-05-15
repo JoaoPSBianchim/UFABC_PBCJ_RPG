@@ -11,6 +11,9 @@ public class Inventory : ScriptableObject
     // Guarda a lista de items no inventário entre cenas.
     List<Item> items;
 
+    // Quantidade de espadas 
+    public int quantidadeEspadas = 0;
+
     /// <summary>
     /// Inicializa a listagem de items.
     /// </summary>
