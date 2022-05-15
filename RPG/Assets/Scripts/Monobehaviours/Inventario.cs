@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Controla o inventário atual do player
+/// </summary>
 public class Inventario : MonoBehaviour
 {
     public GameObject slotPrefab;                   // Objeto que recebe o prefab Slot
@@ -16,9 +19,9 @@ public class Inventario : MonoBehaviour
         CriaSlots();
     }
 
-    /// <summary>
-    /// Cria os slots do inventário.
-    /// </summary>
+    /*
+    * Cria os slots do inventário.
+    */
     public void CriaSlots()
     {
         if (slotPrefab != null)
@@ -35,11 +38,10 @@ public class Inventario : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Adiciona um item ao inventário.
-    /// </summary>
-    /// <param name="item">item a ser adicionado</param>
-    /// <returns></returns>
+    /*
+    * Adiciona um item ao inventário.
+    * item é o item a ser adiocionado ao inventário
+    */
     public bool AddItem(Item item)
     {
         inventory.AddItem(item);
@@ -54,9 +56,9 @@ public class Inventario : MonoBehaviour
        
     }
 
-    /// <summary>
-    /// Atualiza as informações dos slots.
-    /// </summary>
+    /*
+    * Atualiza as informações dos slots.
+    */
     public void UpdateSlots()
     {
         var items = inventory.GetItems();
@@ -74,11 +76,11 @@ public class Inventario : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Atualiza a contagem dos items de um slot do inventário.
-    /// </summary>
-    /// <param name="i">Índice do slot.</param>
-    /// <param name="item">Item a ser atualizado.</param>
+    /*
+    * Atualiza a contagem dos items de um slot do inventário.
+    * i é o indice do slot no inventário
+    * item é o item a ser atualizado
+    */
     public void UpdateSlotText(int i, Item item)
     {
         var slotScript = slots[i].gameObject.GetComponent<Slot>();

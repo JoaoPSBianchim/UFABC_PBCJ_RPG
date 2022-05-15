@@ -50,9 +50,9 @@ public class Armas : MonoBehaviour
         Norte
     }
 
-    /// <summary>
-    /// Chamado antes da atualização do primeiro frame.
-    /// </summary>
+    /*
+    * Chamado antes da atualização do primeiro frame.
+    */
     private void Start()
     {
         
@@ -70,11 +70,10 @@ public class Armas : MonoBehaviour
         slopeNegativo = PegaSlope(acimaEsquerda, abaixoDireita);
     }
 
-    /// <summary>
-    /// Checa se o ponto está acima do slope positivo. 
-    /// </summary>
-    /// <param name="posicaoEntrada">Ponto para verificar.</param>
-    /// <returns><see langword="true"/> se estiver acima do slope; <see langword="false"/> caso contrário.</returns>
+    /*
+    * Checa se o ponto está acima do slope positivo ou não.
+    * posicaoEntrada é o ponto a ser verificado
+    */
     bool AcimaSlopePositivo(Vector2 posicaoEntrada)
     {
         Vector2 posicaoPlayer = gameObject.transform.position;
@@ -84,11 +83,10 @@ public class Armas : MonoBehaviour
         return entradaInterseccao > interseccaoY;
     }
 
-    /// <summary>
-    /// Checa se o ponto está acima do slope negativo. 
-    /// </summary>
-    /// <param name="posicaoEntrada">Ponto para verificar.</param>
-    /// <returns><see langword="true"/> se estiver acima do slope; <see langword="false"/> caso contrário.</returns>
+    /*
+    * Checa se o ponto está acima do slope negativo ou não. 
+    * posicaoEntrada é o ponto a ser verificado
+    */
     bool AcimaSlopeNegativo(Vector2 posicaoEntrada)
     {
         Vector2 posicaoPlayer = gameObject.transform.position;
@@ -98,10 +96,9 @@ public class Armas : MonoBehaviour
         return entradaInterseccao > interseccaoY;
     }
 
-    /// <summary>
-    /// Obtém quadrante do local de click do mouse com relação ao jogador.
-    /// </summary>
-    /// <returns>Quadrante clicado.</returns>
+    /*
+    * Obtém quadrante do local de click do mouse com relação ao jogador.
+    */
     Quadrante PegaQuadrante()
     {
         Vector2 posicaoMouse = Input.mousePosition;
@@ -126,9 +123,9 @@ public class Armas : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Atualiza o estado do jogador.
-    /// </summary>
+    /*
+    * Atualiza o estado do jogador.
+    */
     void UpdateEstado()
     {
         if (atirando)
@@ -173,9 +170,9 @@ public class Armas : MonoBehaviour
     }
 
 
-    /// <summary>
-    /// Inicialização do script.
-    /// </summary>
+    /*
+    * Inicialização do script.
+    */
     private void Awake()
     {
         municaoPiscina ??= new List<GameObject>();
@@ -187,9 +184,9 @@ public class Armas : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Atualização a cada frame.
-    /// </summary>
+    /*
+    * Atualização a cada frame.
+    */
     private void Update()
     {
 
@@ -213,22 +210,20 @@ public class Armas : MonoBehaviour
         UpdateEstado();
     }
 
-    /// <summary>
-    /// Obtém uma reta dados dois pontos.
-    /// </summary>
-    /// <param name="ponto1">Primeiro ponto.</param>
-    /// <param name="ponto2">Segundo ponto.</param>
-    /// <returns>A inclinação da reta que passa pelos dois pontos.</returns>
+    /*
+    * Obtém a inclinação de uma reta dados dois pontos.
+    * ponto1 é o primeiro ponto
+    * ponto2 é o segundo ponto
+    */
     float PegaSlope(Vector2 ponto1, Vector2 ponto2)
     {
         return (ponto2.y - ponto1.y) / (ponto2.x - ponto1.x);
     }
 
-    /// <summary>
-    /// Realiza spawn de uma munição.
-    /// </summary>
-    /// <param name="posicao">Posição inicial da munição.</param>
-    /// <returns>Munição criada.</returns>
+    /*
+    * Realiza spawn de uma munição.
+    * posicao é o valor da posicao inicial da munição
+    */
     public GameObject SpawnMunicao(Vector3 posicao)
     {
         // Utiliza Object Pooling para controlar as instâncias de munições.
@@ -244,9 +239,9 @@ public class Armas : MonoBehaviour
         return null;
     }
 
-    /// <summary>
-    /// Realiza o tiro de uma munição.
-    /// </summary>
+    /*
+    * Realiza o tiro de uma munição.
+    */
     void DisparaMunicao()
     {
         Vector3 posicaoMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -259,9 +254,9 @@ public class Armas : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Destrói recursos em uso.
-    /// </summary>
+    /*
+    * Destrói recursos em uso.
+    */
     private void OnDestroy()
     {
         municaoPiscina = null;

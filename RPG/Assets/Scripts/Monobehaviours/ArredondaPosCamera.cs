@@ -18,11 +18,10 @@ public class ArredondaPosCamera : CinemachineExtension
         }
     }
 
-    /// <summary>
-    /// Arrendonda um valor de acordo com o PixelsPerUnit.
-    /// </summary>
-    /// <param name="x">Valor a ser arredondado.</param>
-    /// <returns>Valor arredondado.</returns>
+    /*
+    * Arrendonda um valor de acordo com o PixelsPerUnit.
+    * x é o valor a ser arredondado
+    */
     float Round(float x)
     {
         return Mathf.Round(x * PixelsPerUnit) / PixelsPerUnit;

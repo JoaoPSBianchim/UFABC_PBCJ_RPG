@@ -16,9 +16,9 @@ public class PontoSpawn : MonoBehaviour
     // Indica se deve fazer o spawn automaticamente.
     public bool autoSpawn;
 
-    /// <summary>
-    /// Chamado antes da atualização do primeiro frame.
-    /// </summary>
+    /*
+    * Chamado antes da atualização do primeiro frame.
+    */
     void Start()
     {
         if (!autoSpawn)
@@ -37,10 +37,9 @@ public class PontoSpawn : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Realiza o spawn do prefab configurado.
-    /// </summary>
-    /// <returns></returns>
+    /*
+    * Realiza o spawn do prefab configurado.
+    */
     public GameObject SpawnO()
     {
         if (prefabParaSpawn != null)

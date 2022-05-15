@@ -7,10 +7,10 @@ public class Municao : MonoBehaviour
 {
     public int danoCausado;         //poder da municao
 
-    /// <summary>
-    /// Trata da colisão entre a munição e um inimigo.
-    /// </summary>
-    /// <param name="collision">Objeto colidido.</param>
+    /*
+    * Trata da colisão entre a munição e um inimigo.
+    * collision é o objeto colidido
+    */
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision is BoxCollider2D)
