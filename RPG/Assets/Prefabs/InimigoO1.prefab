@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1864578842700981751}
   - component: {fileID: 704968090743527985}
   m_Layer: 9
-  m_Name: AtacaO
+  m_Name: AtaqueO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84,7 +84,7 @@ GameObject:
   - component: {fileID: 2748346641599774887}
   - component: {fileID: 2624716578328270626}
   m_Layer: 9
-  m_Name: SpotAttackO
+  m_Name: SpotAtaqueO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51e29d5751f6c27448f7c42b24bda711, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownAtaque: 1
+  cooldownAtaque: 2.5
 --- !u!1 &7448649443166771047
 GameObject:
   m_ObjectHideFlags: 0
