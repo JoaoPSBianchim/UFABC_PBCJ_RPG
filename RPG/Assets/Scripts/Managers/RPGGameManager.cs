@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -35,9 +33,9 @@ public class RPGGameManager : MonoBehaviour
     // Variável de controle para indicar que o player está em processo de spawn.
     bool spawning;
 
-    /// <summary>
-    /// Inicialização do objeto.
-    /// </summary>
+    /**
+     * Inicialização.
+     */
     private void Awake()
     {
         if (instanciaCompartilhada != null && instanciaCompartilhada != this)
@@ -52,17 +50,17 @@ public class RPGGameManager : MonoBehaviour
         spawning = true;
     }
 
-    /// <summary>
-    /// Chamado antes da atualização do primeiro frame.
-    /// </summary>
+    /**
+     * Chamado antes da atualização do primeiro frame.
+     */
     void Start()
     {
         SetupScene();
     }
 
-    /// <summary>
-    /// Realiza o setup da cena. 
-    /// </summary>
+    /**
+     * Realiza o setup da cena. 
+     */
     public void SetupScene()
     {
         if (clearInventory && inventory != null)
@@ -77,9 +75,9 @@ public class RPGGameManager : MonoBehaviour
         SpawnPlayer();
     }
 
-    /// <summary>
-    /// Realiza o spawn do player no mapa.
-    /// </summary>
+    /**
+     * Realiza o spawn do player no mapa.
+     */
     public void SpawnPlayer()
     {
         if (playerPontoSpawn != null)
@@ -90,18 +88,18 @@ public class RPGGameManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Chamado a cada frame, se o MonoBehaviour estiver habilitado.
-    /// </summary>
+    /**
+     * Chamado a cada frame, se o MonoBehaviour estiver habilitado.
+     */
     private void Update()
     {
-        CheckScene();
+        CheckSceneCondition();
     }
 
-    /// <summary>
-    /// Verifica se a cena está completa, para prosseguir para a próxima cena.
-    /// </summary>
-    private void CheckScene()
+    /**
+     * Verifica se a cena está completa, para prosseguir para a próxima cena.
+     */
+    private void CheckSceneCondition()
     {
         var player = GameObject.FindWithTag("Player");
         if (player == null && !spawning)
@@ -110,18 +108,10 @@ public class RPGGameManager : MonoBehaviour
             return;
         }
 
-        var collectables = GameObject.FindGameObjectsWithTag("Coletavel");
         var enemies = GameObject.FindGameObjectsWithTag("Inimigo");
-
-        if (collectables.Length == 0 && enemies.Length == 0 && !string.IsNullOrWhiteSpace(nextScene))
+        if (enemies.Length == 0 && !string.IsNullOrWhiteSpace(nextScene))
         {
             SceneManager.LoadScene(nextScene);
         }
-
-        // // Quando é a última cena, a única condição de vitória é matar o boss.
-        // if (SceneManager.GetActiveScene().name == "StageBoss" && enemies.Length == 0)
-        // {
-        //     SceneManager.LoadScene(nextScene);
-        // }
     }
 }
