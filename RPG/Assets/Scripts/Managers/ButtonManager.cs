@@ -6,18 +6,18 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class ButtonManager : MonoBehaviour
 {
-    /// <summary>
-    /// Inicia um cenário especificado.
-    /// </summary>
-    /// <param name="cena"></param>
+    /*
+    Inicia um cenário especificado.
+    cena é o nome da cena a ser Carregada para o jogo
+     */
     public void StartCenario(string cena)
     {
         SceneManager.LoadScene(cena);
     }
 
-    /// <summary>
-    /// Fecha a aplicação.
-    /// </summary>
+    /*
+    Fecha a aplicação.
+    */
     public void Exit()
     {
         Application.Quit();

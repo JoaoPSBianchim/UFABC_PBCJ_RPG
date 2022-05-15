@@ -32,9 +32,9 @@ public class Player : Caractere
     // Tem o valor da saude do objeto script.
     public PontosDano pontosDano;
 
-    /// <summary>
-    /// Chamado antes da atualização do primeiro frame.
-    /// </summary>
+    /*
+    Chamado antes da atualização do primeiro frame.
+    */
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -49,12 +49,11 @@ public class Player : Caractere
         }
     }
 
-    /// <summary>
-    /// Coroutine para atualizar o dano sofrido pelo player.
-    /// </summary>
-    /// <param name="dano">Dano sofrido.</param>
-    /// <param name="intervalo">Intervalo entre os danos sofridos.</param>
-    /// <returns></returns>
+    /*
+    * Coroutine para atualizar o dano sofrido pelo player.
+    * Dano é o dano sofrido pelo Player
+    * intervalo é o intervalor entre os danos sofridos
+    */
     public override IEnumerator DanoCaractere(float dano, float intervalo)
     {
         while (true)
@@ -76,9 +75,9 @@ public class Player : Caractere
         }
     }
 
-    /// <summary>
-    /// Reinicia os dados do player.
-    /// </summary>
+    /*
+    * Reinicia os dados do player.
+    */
     public override void ResetCaractere()
     {
         inventario = Instantiate(inventarioPrefab);
@@ -87,9 +86,9 @@ public class Player : Caractere
         pontosDano.valor = inicioPontosDano;
     }
 
-    /// <summary>
-    /// Destrói o player, e.g. quando o personagem morre (PD = 0).
-    /// </summary>
+    /*
+    * Destrói o player, e.g. quando o personagem morre (PD = 0).
+    */
     public override void KillCaractere()
     {
         base.KillCaractere();
@@ -97,10 +96,10 @@ public class Player : Caractere
         Destroy(inventario.gameObject);
     }
 
-    /// <summary>
-    /// Trigger para quando ocorre uma colisão.
-    /// </summary>
-    /// <param name="collision">Objeto colidido.</param>
+    /*
+    * Trigger para quando ocorre uma colisão.
+    * collision é o objeto colidido
+    */
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Coletavel"))
@@ -151,11 +150,10 @@ public class Player : Caractere
 
     }
 
-    /// <summary>
-    /// Altera a vida do player.
-    /// </summary>
-    /// <param name="quantidade">Vida a ser adicionada.</param>
-    /// <returns></returns>
+    /*
+    * Altera a vida do player.
+    * quantidade é a quantidade de vida a ser adicionada
+    */
     public bool AjustePontosDano(float quantidade)
     {
         if (pontosDano.valor < MaxPontoDano)
@@ -168,9 +166,9 @@ public class Player : Caractere
 
     }
 
-    /// <summary>
-    /// Melhora os atributos do player.
-    /// </summary>
+    /*
+    * Melhora os atributos do player.
+    */
     public void PowerUp()
     {
         animator.SetBool("Super", true);

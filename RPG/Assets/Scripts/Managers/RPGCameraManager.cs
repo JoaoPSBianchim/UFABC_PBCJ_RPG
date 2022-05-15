@@ -13,9 +13,9 @@ public class RPGCameraManager : MonoBehaviour
     [HideInInspector]
     public CinemachineVirtualCamera virtualCamera;
 
-    /// <summary>
-    /// Inicialização do objeto.
-    /// </summary>
+    /*
+    Inicialização do objeto.
+    */
     private void Awake()
     {
         if (instanciaCompartilhada != null && instanciaCompartilhada != this)

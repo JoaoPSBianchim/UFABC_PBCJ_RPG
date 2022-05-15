@@ -6,12 +6,11 @@ using UnityEngine;
 /// </summary>
 public class Arco : MonoBehaviour
 {
-    /// <summary>
-    /// Coroutine que executa um trajeto de arco.
-    /// </summary>
-    /// <param name="destino">Destino do arco.</param>
-    /// <param name="duracao">Em quanto tempo o arco deve ser executado.</param>
-    /// <returns></returns>
+    /*
+    *Coroutine que executa um trajeto de arco.
+    *destino é o destino do arco
+    *duracao é quanto tempo leva para o arco ser executado
+    */
     public IEnumerator arcoTrajetoria(Vector3 destino, float duracao)
     {
         var posicaoInicial = transform.position;

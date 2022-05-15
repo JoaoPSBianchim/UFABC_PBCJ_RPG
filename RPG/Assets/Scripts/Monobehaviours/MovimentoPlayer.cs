@@ -27,17 +27,17 @@ public class MovimentoPlayer : MonoBehaviour
         UpdateEstado();
     }
 
-    /// <summary>
-    /// Atualização fixa.
-    /// </summary>
+    /*
+    * Atualização fixa.
+    */
     private void FixedUpdate()
     {
         MoveCaractere();
     }
 
-    /// <summary>
-    /// Movimenta o caractere com base no input do teclado.
-    /// </summary>
+    /*
+    * Movimenta o caractere com base no input do teclado.
+    */
     private void MoveCaractere()
     {
         Movimento.x = Input.GetAxisRaw("Horizontal");
@@ -46,9 +46,9 @@ public class MovimentoPlayer : MonoBehaviour
         rb2D.velocity = Movimento * velocidadeMovimento;
     }
 
-    /// <summary>
-    /// Atualiza o estado de animação com base nos dados de movimentação.
-    /// </summary>
+    /*
+    * Atualiza o estado de animação com base nos dados de movimentação.
+    */
     void UpdateEstado()
     {
         if (Mathf.Approximately(Movimento.x, 0) && (Mathf.Approximately(Movimento.y, 0)))

@@ -23,9 +23,9 @@ public class Fada : MonoBehaviour
 
     private int contador;
 
-    /// <summary>
-    /// Inicialização do script.
-    /// </summary>
+    /*
+    * Inicialização do script.
+    */
     private void Awake()
     {
         circleCollider2D = GameObject.Find("Fada").GetComponent<CircleCollider2D>();
@@ -37,19 +37,19 @@ public class Fada : MonoBehaviour
 
     }
 
-    /// <summary>
-    /// Configura o texto a ser exibido.
-    /// </summary>
-    /// <param name="text"></param>
+    /*
+    * Configura o texto a ser exibido.
+    * text é o novo texto a aparecer na fala
+    */
     private void SetupText(string text)
     {
         textMeshPro.SetText(text);
         textMeshPro.ForceMeshUpdate();
     }
 
-    /// <summary>
-    /// Controlador de dica da fada.
-    /// </summary>
+    /*
+    * Controlador de dica da fada.
+    */
     private void EstagioConversa() // NAO Esta Funcionando
     {
         if (numeroDica == 1)
@@ -73,10 +73,10 @@ public class Fada : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Trata da colisão entre a fada e o jogador.
-    /// </summary>
-    /// <param name="collision">Objeto colidido.</param>
+    /*
+    *Trata da colisão entre a fada e o jogador.
+    *collision é o objeto colidido
+    */
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
@@ -87,10 +87,10 @@ public class Fada : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Trata do fim da colisão entre a fada e o jogador.
-    /// </summary>
-    /// <param name="collision">Objeto colidido.</param>
+    /*
+    *Trata do fim da colisão entre a fada e o jogador.
+    *collision é o objeto colidido
+    */
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag == "Player")
