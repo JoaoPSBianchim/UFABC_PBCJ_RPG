@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nomeObjeto: 
   sprite: {fileID: 712035800519618848, guid: 8d51184a6db3abb41a6cfaa11dc1d2a3, type: 3}
-  quantidade: 1
+  quantidade: 5
   empilhavel: 1
   tipoItem: 4

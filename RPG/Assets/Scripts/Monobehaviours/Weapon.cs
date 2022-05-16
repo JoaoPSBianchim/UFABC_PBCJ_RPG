@@ -11,6 +11,9 @@ public class Weapon : MonoBehaviour
     // Alvo do ataque ("Inimigo" se a arma deveria atacar um inimigo, "Player" se deveria atacar o player, etc).
     public string tagAlvo;
 
+    // Indica se o objeto deve ser inativado quando colidido.
+    public bool inativarImpacto;
+
     /**
      * Executa dano ao caractere quando colisão é detectada.
      * collision é o objeto sendo colidido.
@@ -20,8 +23,12 @@ public class Weapon : MonoBehaviour
         if (collision is BoxCollider2D && collision.gameObject.CompareTag(tagAlvo))
         {
             var caractere = collision.gameObject.GetComponent<Caractere>();
-            print($"acertei caractere, dano: {dano}");
             StartCoroutine(caractere.DanoCaractere(dano, 0.0f));
+
+            if (inativarImpacto)
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 }

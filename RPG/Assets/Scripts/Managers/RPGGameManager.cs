@@ -109,7 +109,7 @@ public class RPGGameManager : MonoBehaviour
         {
             SceneManager.LoadScene(gameOverScene);
             return;
-        }
+        }   
 
         var enemies = GameObject.FindGameObjectsWithTag("Inimigo");
         if (enemies.Length == 0 && !string.IsNullOrWhiteSpace(nextScene))

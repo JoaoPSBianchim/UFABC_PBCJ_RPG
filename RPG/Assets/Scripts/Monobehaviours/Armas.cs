@@ -1,17 +1,16 @@
 using System.Collections.Generic;
 using UnityEngine;
+using static Item;
 
 /// <summary>
 /// Controla as ações que envolvem o armamento do player.
 /// </summary>
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Player))]
 public class Armas : MonoBehaviour
 {
     // Armazena o Prefab da Municao.
     public GameObject municaoPrefab;
-
-    // Dados do inventario
-    public Inventory inventory;
 
     // Piscina de municao.
     static List<GameObject> municaoPiscina;
@@ -24,6 +23,9 @@ public class Armas : MonoBehaviour
 
     // Audios da espada.
     public AudioClip[] audiosEspada;
+
+    // Armazena o jogador que possui os armamentos.
+    Player player;
 
     // Variável de controle se está atirando ou não.
     bool atirando;
@@ -55,7 +57,8 @@ public class Armas : MonoBehaviour
     */
     private void Start()
     {
-        
+        player = GetComponent<Player>();
+
         animator = GetComponent<Animator>();
         atirando = false;
 
@@ -189,23 +192,14 @@ public class Armas : MonoBehaviour
     */
     private void Update()
     {
-
-        
-
-
-        if (Input.GetMouseButtonDown(1))
-        {
-            if(inventory.quantidadeEspadas > 0){
-                DisparaMunicao();
-                inventory.quantidadeEspadas -= 1;
-               
-            }
-            
-        }
         if (Input.GetMouseButtonDown(0))
         {
             atirando = true;
-            
+        }
+        if (Input.GetMouseButtonDown(1) && player.inventario.GetFacas() > 0)
+        {
+            DisparaMunicao();
+            player.inventario.RemoveItem(TipoItem.KNIFE, 1);
         }
         UpdateEstado();
     }

@@ -1,21 +1,33 @@
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using static Item;
 
 /// <summary>
 /// Controla o inventário atual do player
 /// </summary>
 public class Inventario : MonoBehaviour
 {
-    public GameObject slotPrefab;                   // Objeto que recebe o prefab Slot
-    public const int numSlots = 5;                  // Numero Fixo de Slots
-    public Inventory inventory;                     // Dados de inventário armazenados.
-    Image[] itemImagens = new Image[numSlots];      // Array de Imagens
-    GameObject[] slots = new GameObject[numSlots];  // Array de Slots
-    
-    // Start is called before the first frame update
+    // Objeto que recebe o prefab Slot.
+    public GameObject slotPrefab;
+
+    // Numero Fixo de Slots.
+    public const int numSlots = 5;
+
+    // Dados de inventário armazenados.
+    public Inventory inventory;
+
+    // Array de Imagens.
+    Image[] itemImagens = new Image[numSlots];
+
+    // Array de Slots.
+    GameObject[] slots = new GameObject[numSlots];
+
+    /**
+     * Chamado antes do primeiro frame.
+     */
     void Start()
     {
-        
         CriaSlots();
     }
 
@@ -46,14 +58,29 @@ public class Inventario : MonoBehaviour
     {
         inventory.AddItem(item);
         UpdateSlots();
-        if(item.tipoItem.ToString() == "KNIFE"){
-            inventory.quantidadeEspadas += 10;
-                
-       }
         return true;
+    }
 
-       
-       
+    /*
+    * Remove um item do inventário.
+    * tipo é o tipo do item a ser removido do inventário.
+    * quantidade é a quantidade do item a ser removido do inventário.
+    */
+    public bool RemoveItem(TipoItem tipo, int quantidade)
+    {
+        inventory.RemoveItem(tipo, quantidade);
+        UpdateSlots();
+        return true;
+    }
+
+    /**
+     * Obtém a quantidade de facas no inventário.
+     */
+    public int GetFacas()
+    {
+        var items = inventory.GetItems();
+        var item = items.Where(e => e.tipoItem == TipoItem.KNIFE).FirstOrDefault();
+        return item?.quantidade ?? 0;
     }
 
     /*

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6da4a6cead99c3b40ab4b52a6e465b36, type: 3}
   m_Name: Escudo
   m_EditorClassIdentifier: 
-  NomeObjeto: Escudo
+  nomeObjeto: 
   sprite: {fileID: 4556617768182904718, guid: 78428d790851a8a48a00aa6b61c5d6bd, type: 3}
   quantidade: 1
-  empilhavel: 0
+  empilhavel: 1
   tipoItem: 3

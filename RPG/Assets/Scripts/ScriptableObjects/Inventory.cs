@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using static Item;
 
 /// <summary>
 /// Armazena o estado do inventário.
@@ -51,12 +52,22 @@ public class Inventory : ScriptableObject
         if (item == null)
         {
             var itemToAdd = Instantiate(i);
-            itemToAdd.quantidade = 1;
+            itemToAdd.quantidade = i.quantidade;
             items.Add(itemToAdd);
             return;
         }
 
         var index = items.IndexOf(item);
-        items[index].quantidade += 1;
+        items[index].quantidade += i.quantidade;
+    }
+
+    public void RemoveItem(TipoItem tipo, int quantidade)
+    {
+        var item = items.Where(e => e.tipoItem == tipo).FirstOrDefault();
+        var index = items.IndexOf(item);
+        if (items[index].quantidade > 0)
+        {
+            items[index].quantidade -= quantidade;
+        }
     }
 }

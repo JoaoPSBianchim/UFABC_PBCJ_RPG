@@ -24,7 +24,8 @@ public class Player : Caractere
     public Weapon espada;
 
     // Inventário do jogador.
-    Inventario inventario;
+    [HideInInspector]
+    public Inventario inventario;
 
     // Barra de vida do jogador.
     HealthBar healthBar;

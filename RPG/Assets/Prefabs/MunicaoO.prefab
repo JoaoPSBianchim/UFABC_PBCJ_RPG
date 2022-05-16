@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5665907242197474416}
   - component: {fileID: 5665907242197474417}
-  - component: {fileID: 5665907242197474418}
-  - component: {fileID: 5665907242197474419}
   - component: {fileID: -166935498311739859}
+  - component: {fileID: 8108602489126980650}
+  - component: {fileID: 1324950378161117915}
   m_Layer: 10
   m_Name: MunicaoO
   m_TagString: Untagged
@@ -85,35 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &5665907242197474418
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5665907242197474428}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.1, y: 0.13}
-  serializedVersion: 2
-  m_Radius: 0.08507168
---- !u!114 &5665907242197474419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5665907242197474428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 462eb55a548ced74d8db78b4acd853c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  danoCausado: 1
 --- !u!114 &-166935498311739859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,3 +97,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6566a0bcf036d2541b6bfcb3f6f1d31a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!60 &8108602489126980650
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5665907242197474428}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 0.4375, y: 0.4375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.061489582, y: 0.19010568}
+      - {x: -0.15919232, y: 0.06317377}
+      - {x: -0.19010568, y: -0.15885568}
+      - {x: 0.033855677, y: -0.12214613}
+      - {x: 0.15692353, y: 0.09375}
+      - {x: 0.16024661, y: 0.19182396}
+--- !u!114 &1324950378161117915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5665907242197474428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712db4584c178a640b1dc8088ee7cea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dano: 0.5
+  tagAlvo: Inimigo
+  inativarImpacto: 1
