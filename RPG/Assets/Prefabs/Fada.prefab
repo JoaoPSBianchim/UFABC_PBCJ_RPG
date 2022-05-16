@@ -184,6 +184,7 @@ GameObject:
   - component: {fileID: 6957868162228673355}
   - component: {fileID: 6957868162228673352}
   - component: {fileID: 6957868162228673357}
+  - component: {fileID: 7838562216200681558}
   m_Layer: 0
   m_Name: Fada
   m_TagString: Untagged
@@ -270,7 +271,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.012069225, y: 0}
+  m_Offset: {x: -0.0077426434, y: -0.01584953}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -281,7 +282,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.56550884, y: 1}
+  m_Size: {x: 0.62098265, y: 0.96830094}
   m_EdgeRadius: 0
 --- !u!50 &6957868162228673355
 Rigidbody2D:
@@ -336,6 +337,25 @@ MonoBehaviour:
   conteudoObject: {fileID: 6957868161946349352}
   proximoObject: {fileID: 9126967914375799272}
   dialogue: {fileID: 0}
+--- !u!95 &7838562216200681558
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6957868162228673351}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cf1d7c7a87b0e4441a302a5534a61257, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6957868162365376752
 GameObject:
   m_ObjectHideFlags: 0
