@@ -13,14 +13,14 @@ public abstract class Caractere : MonoBehaviour
     // Valor maximo permitido de saude do Player
     public float MaxPontoDano;
 
-    /**
-     * Função abstrata para redefinir os atributos do character.
-     */
+    /*
+    * Função abstrata para redefinir os atributos do character.
+    */
     public abstract void ResetCaractere();
 
-    /**
-     * Animação para quando recebe um golpe.
-     */
+    /*
+    * Animação para quando recebe um golpe.
+    */
     public virtual IEnumerator FlickerCaractere()
     {
         GetComponent<SpriteRenderer>().color = Color.red;
@@ -29,14 +29,14 @@ public abstract class Caractere : MonoBehaviour
 
     }
 
-    /**
+    /*
      * Trata o dano recebido por golpes externos.
      * dano é o dano recebido.
      * intevalo é o intervalo entre os danos recebidos.
      */
     public abstract IEnumerator DanoCaractere(float dano, float intervalo);
 
-    /**
+    /*
      * Destrói o character.
      */
     public virtual void KillCaractere()

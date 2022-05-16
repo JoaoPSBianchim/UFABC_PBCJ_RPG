@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Gerenciador do jogo
+/// </summary>
 public class RPGGameManager : MonoBehaviour
 {
     // Singleton para uma única instância de gerenciador de jogo.

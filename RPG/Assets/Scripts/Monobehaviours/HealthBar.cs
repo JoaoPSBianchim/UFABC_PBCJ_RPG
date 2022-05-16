@@ -15,17 +15,17 @@ public class HealthBar : MonoBehaviour
     [HideInInspector]
     public float maxPontosDano;
 
-    /// <summary>
-    /// Chamado antes da atualização do primeiro frame.
-    /// </summary>
+    /*
+    * Chamado antes da atualização do primeiro frame.
+    */
     void Start()
     {
         maxPontosDano = caractere.MaxPontoDano;
     }
 
-    /// <summary>
-    /// Atualização a cada frame.
-    /// </summary>
+    /*
+    * Atualização a cada frame.
+    */
     void Update()
     {
         if (caractere != null)

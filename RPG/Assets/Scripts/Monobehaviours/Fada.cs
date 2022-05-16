@@ -32,9 +32,9 @@ public class Fada : MonoBehaviour
     // Indica se o balão de fala está sendo mostrado.
     bool conversando = false;
 
-    /// <summary>
-    /// Inicialização do script.
-    /// </summary>
+    /*
+    * Inicialização do script.
+    */
     private void Awake()
     {
         circleCollider2D = GetComponent<CircleCollider2D>();
@@ -44,10 +44,10 @@ public class Fada : MonoBehaviour
         sentences = new Queue<string>();
     }
 
-    /// <summary>
-    /// Trata da colisão entre a fada e o jogador.
-    /// </summary>
-    /// <param name="collision">Objeto colidido.</param>
+    /*
+    *Trata da colisão entre a fada e o jogador.
+    *collision é o objeto colidido
+    */
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -56,10 +56,10 @@ public class Fada : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Trata do fim da colisão entre a fada e o jogador.
-    /// </summary>
-    /// <param name="collision">Objeto colidido.</param>
+    /*
+    *Trata do fim da colisão entre a fada e o jogador.
+    *collision é o objeto colidido
+    */
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -70,7 +70,7 @@ public class Fada : MonoBehaviour
 
     /**
      * Configura o texto a ser exibido.
-     * text é a sentença a ser exibida.
+     * text é o novo texto a aparecer na fala
      */
     private void SetupSentence(string text)
     {
