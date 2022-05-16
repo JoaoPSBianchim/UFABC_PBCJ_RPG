@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 760f9406ff9e8cd4d8c7074def6af14b, type: 3}
+  m_Name: FadaBossDialogue
+  m_EditorClassIdentifier: 
+  character: Sindy
+  sentences:
+  - "Para completar o seu pote de ouro voc\xEA precisar\xE1 enfrentar o BOSS!"
+  - "Cuidado! Voc\xEA precisa estar bem forte para enfrent\xE1-lo!"
+  - "Ache a po\xE7\xE3o m\xE1gica antes que ele te ache. Voc\xEA ganhar\xE1 super
+    poderes!"
